@@ -50,7 +50,6 @@ class NgramTokenizer(Tokenizer):
 
     def tokenize(self, text: str, return_token_ids: bool = False) -> List[List[str]] | List[int]:
         """
-        TODO: Tokenize a text using the NgramTokenizer.
         If return_token_ids is True, return a list of token ids (from 0 to len(vocab)).
         Otherwise, return a list of list of token strings (remember each 'token' is a tuple, e.g. ("hi",) or ("movie", "was")).
         Detailed instructions:

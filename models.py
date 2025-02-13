@@ -1,6 +1,4 @@
 # models.py
-from nltk.corpus import sentiwordnet, opinion_lexicon
-
 from utils import SentimentExample
 from typing import List
 from collections import Counter
@@ -8,11 +6,6 @@ import time
 from tokenizers import Tokenizer, convert_text_to_words, NgramTokenizer, ReturnWordsTokenizer
 import numpy as np
 from tqdm import tqdm
-import nltk
-
-nltk.download('averaged_perceptron_tagger_eng', quiet=True)
-nltk.download('opinion_lexicon', quiet=True)
-nltk.download('sentiwordnet', quiet=True)
 
 import gensim.downloader as api
 
@@ -46,7 +39,6 @@ class CountFeatureExtractor(FeatureExtractor):
 
     def extract_features(self, text: str) -> Counter:
         """
-        TODO: Extract count features from a text represented as a list of words.
         The feature vector should be a Counter mapping from token ids to their counts in the text.
 
         Example:
@@ -57,17 +49,14 @@ class CountFeatureExtractor(FeatureExtractor):
         Output: Counter({0: 2, 1: 1, 2: 0})
         (In the above case, the token "foo" is not in the text, so its count is 0.)
         """
-        words_in_text = self.tokenizer.tokenize(text)
+        words_in_text = self.tokenizer.tokenize(text, return_token_ids=True)
         word_count = Counter(words_in_text)
+
         for key in list(word_count.keys())[:]:
-            if key in self.tokenizer.token_to_id.keys():
-                word_count[self.tokenizer.token_to_id[key]] = word_count.pop(key)
-            else:
+            if key not in self.tokenizer.id_to_token.keys():
                 del(word_count[key])
+
         return word_count
-
-        
-
     
 
 class CustomFeatureExtractor(FeatureExtractor):
@@ -77,41 +66,21 @@ class CustomFeatureExtractor(FeatureExtractor):
 
     def __init__(self, tokenizer: Tokenizer):
         self.tokenizer = tokenizer
-        self.positive_words = set(opinion_lexicon.positive())
-        self.negative_words = set(opinion_lexicon.negative())
 
     def __len__(self):
-        # return len(self.tokenizer)
-        return 3
+        return len(self.tokenizer)
 
     def extract_features(self, text: str) -> Counter:
         """
-        TODO: Implement your own custom feature extractor. The returned format should be the same as in CountFeatureExtractor,
         a Counter mapping from feature ids to their values.
         """
 
-        tokens = self.tokenizer.tokenize(text.lower())
-        # tagged_tokens = nltk.pos_tag(tokens)
-
-        pos_senti_count = 0
-        neg_senti_count = 0
-        # adj_count = 0
-        # adv_count = 0
-        neg_count = 0
-
-        for word in tokens:
-            if word in self.positive_words:
-                pos_senti_count += 1
-            elif word in self.negative_words:
-                neg_senti_count += 1
-            # if tag.startswith('JJ'):
-            #     adj_count += 1
-            # elif tag.startswith('RB'):
-            #     adv_count += 1
-            if word.lower() == 'not':
-                neg_count += 1
-
-        return Counter({0: pos_senti_count, 1: neg_senti_count, 2: neg_count})
+        # Tokenize text into token IDs
+        token_ids = self.tokenizer.tokenize(text, return_token_ids=True)
+        # Convert list of token_ids into a set to remove duplicates,
+        # then assign a value of 1 for each token.
+        binary_features = {token_id: 1 for token_id in set(token_ids)}
+        return Counter(binary_features)
 
 
 class MeanPoolingWordVectorFeatureExtractor(FeatureExtractor):
@@ -127,7 +96,6 @@ class MeanPoolingWordVectorFeatureExtractor(FeatureExtractor):
 
     def get_word_vector(self, word) -> np.ndarray:
         """
-        TODO: Get the word vector for a word from self.word_to_vector_model. If the word is not in the vocabulary, return None.
         
         Example:
         Input `word`: "hello"
@@ -141,7 +109,6 @@ class MeanPoolingWordVectorFeatureExtractor(FeatureExtractor):
 
     def extract_features(self, text: List[str]) -> Counter:
         """
-        TODO: Extract mean pooling word vector features from a text represented as a list of words.
         Detailed instructions:
         1. Tokenize the text into words using self.tokenizer.tokenize.
         2. For each word, get its word vector (using get_word_vector method).
@@ -151,15 +118,16 @@ class MeanPoolingWordVectorFeatureExtractor(FeatureExtractor):
         from token ids to their counts, normally you would not need to do this conversion.
         Remember to ignore words that do not have a word vector.
         """
-        # raise Exception("TODO: Implement this method")
         words_in_text = self.tokenizer.tokenize(text)
         avg_pooling_vector = np.zeros(25)
         count = 0
+
         for word in words_in_text:
             word_vector = self.get_word_vector(word)
             if word_vector is not None:
                 avg_pooling_vector += word_vector
                 count += 1
+
         if count != 0:
             avg_pooling_vector /= count
         return Counter({i:avg_pooling_vector[i]for i in range(len(avg_pooling_vector))})
@@ -219,7 +187,6 @@ class LogisticRegressionClassifier(SentimentClassifier):
 
     def predict(self, text: str) -> int:
         """
-        TODO: Predict the sentiment of a text, should be either 0 or 1.
         You will need to use the sigmoid function from above, which is already implemented.
         Detailed instructions:
         1. Extract features from the text using self.featurizer.extract_features.
@@ -238,13 +205,10 @@ class LogisticRegressionClassifier(SentimentClassifier):
         Output: 1
         """
         features = self.featurizer.extract_features(text)
-        score = self.bias + sum(self.weights[feature_id] * feature_value
-                            for feature_id, feature_value in features.items())
+        score = self.bias + sum(self.weights[feature_id] * feature_value for feature_id, feature_value in features.items())
         sigmoid_score = sigmoid(score)
-        # print(sigmoid_score)
-        if(sigmoid_score >= 0.5):
-            return 1
-        return 0
+
+        return 1 if sigmoid_score >= 0.5 else 0
 
 
     def set_weights(self, weights: np.ndarray):
@@ -267,7 +231,6 @@ class LogisticRegressionClassifier(SentimentClassifier):
 
     def training_step(self, batch_exs: List[SentimentExample], learning_rate: float):
         """
-        TODO: Update the weights and bias of the model from a batch of examples, using the learning rate.
         Detailed instructions:
         1. Iterate over the batch of examples.
             a. For each example, extract features and predict the label.
@@ -285,28 +248,25 @@ class LogisticRegressionClassifier(SentimentClassifier):
         set `self.weights`: [-1.5, 1.25, 1.75]
         set `self.bias`: -0.25
         """
-        # raise Exception("TODO: Implement this method")
-        m = len(batch_exs)
+
+        batch_size = len(batch_exs)
         gradient_weights = np.zeros(len(self.featurizer))
         gradient_bias = 0
+
         for example in batch_exs:
+
             text = example.words
             features = self.featurizer.extract_features(text)
-            feature_ids = list(features.keys())
-            # score = self.bias
-            # for key in feature_ids[:]:
-            #     score += features[key] * self.weights[key]
-            # sigmoid_score = sigmoid(score)
+
             sigmoid_score = self.predict(text)
             error = sigmoid_score - example.label
+
             for feature_id, feature_value in features.items():
                 gradient_weights[feature_id] += error * feature_value
+            gradient_bias += error
 
-            gradient_bias += (sigmoid_score - example.label)
-        gradient_weights /= m
-        gradient_bias /= m
-        self.weights -= learning_rate * gradient_weights
-        self.bias -= learning_rate * gradient_bias
+        self.weights -= learning_rate * gradient_weights / batch_size
+        self.bias -= learning_rate * gradient_bias / batch_size
 
 
 
@@ -343,7 +303,6 @@ def train_logistic_regression(
     epochs: int = 10,
 ) -> LogisticRegressionClassifier:
     """
-    TODO: Train a logistic regression model.
     :param train_exs: training set, List of SentimentExample objects
     :param feat_extractor: feature extractor to use
     :return: trained LogisticRegressionClassifier model
@@ -418,7 +377,6 @@ def train_logistic_regression(
         # at the end of training, your 'best_dev_acc' should be the best accuracy on the dev set
         ##########################################
         metrics = {"best_dev_acc": best_dev_accuracy, "cur_dev_acc": dev_accuracy}
-        # raise Exception("TODO: Implement this section")
 
         # if metrics is not empty, update the progress bar
         if len(metrics) > 0:
@@ -478,24 +436,24 @@ def train_model(
     return model
 
 
-# if __name__ == "__main__":
-#     unigram = NgramTokenizer(n=1)
-#     unigram.train(["hello world foo"])
-#     fe = CountFeatureExtractor(unigram)
-#     # print(fe.extract_features("foo bar"))
-#     return_text_tokenizer = ReturnWordsTokenizer()
-#     mean_pooling_feature_extractor = MeanPoolingWordVectorFeatureExtractor(
-#         return_text_tokenizer
-#     )
-#     dummy_corpus = [
-#         "This movie was really bad, but bad in a fun way, so I loved it.",
-#         "The book series that this is based on is one of the best book series I have ever read, but this TV show is the worst TV show I have ever seen.",
-#     ]
-#     features = mean_pooling_feature_extractor.extract_features(dummy_corpus[0])
-#     # lrc = MeanPoolingWordVectorFeatureExtractor(unigram)
-#     print(features)
-#     # lrc.weights = [-2,1,2]
-#     # lrc.bias = -1
-#     # print(lrc.predict("foo bar"))
-#     # lrc.training_step([SentimentExample(words="hi hi world", label=1), SentimentExample(words="foo bar", label=0)], 0.5)
-#
+if __name__ == "__main__":
+    unigram = NgramTokenizer(n=1)
+    unigram.train(["hello world foo"])
+    fe = CountFeatureExtractor(unigram)
+    print(fe.extract_features("foo bar"))
+    return_text_tokenizer = ReturnWordsTokenizer()
+    mean_pooling_feature_extractor = MeanPoolingWordVectorFeatureExtractor(
+        return_text_tokenizer
+    )
+    dummy_corpus = [
+        "This movie was really bad, but bad in a fun way, so I loved it.",
+        "The book series that this is based on is one of the best book series I have ever read, but this TV show is the worst TV show I have ever seen.",
+    ]
+    features = mean_pooling_feature_extractor.extract_features(dummy_corpus[0])
+    # lrc = MeanPoolingWordVectorFeatureExtractor(unigram)
+    print(features)
+    # lrc.weights = [-2,1,2]
+    # lrc.bias = -1
+    # print(lrc.predict("foo bar"))
+    # lrc.training_step([SentimentExample(words="hi hi world", label=1), SentimentExample(words="foo bar", label=0)], 0.5)
+
