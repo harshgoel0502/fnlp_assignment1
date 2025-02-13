@@ -161,13 +161,6 @@ if __name__ == "__main__":
 
     sample_text = "I love scifi and am willing to put up with a lot. Scifi movies and TV are usually underfunded, under-appreciated and misunderstood."
 
-    # ngram = NgramTokenizer(n=3)
-    # ngram.train(corpus)
-
-    # sample_text = "This movie was really bad, but bad in a fun way, so I loved it."
-
-    # print(ngram.tokenize(sample_text, True))
-
     print(unigram.tokenize(sample_text))
     print("-" * 100)
     print(ngram.tokenize(sample_text))

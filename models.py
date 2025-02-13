@@ -435,25 +435,3 @@ def train_model(
         raise Exception("Pass in TRIVIAL or LR to run the appropriate system")
     return model
 
-
-if __name__ == "__main__":
-    unigram = NgramTokenizer(n=1)
-    unigram.train(["hello world foo"])
-    fe = CountFeatureExtractor(unigram)
-    print(fe.extract_features("foo bar"))
-    return_text_tokenizer = ReturnWordsTokenizer()
-    mean_pooling_feature_extractor = MeanPoolingWordVectorFeatureExtractor(
-        return_text_tokenizer
-    )
-    dummy_corpus = [
-        "This movie was really bad, but bad in a fun way, so I loved it.",
-        "The book series that this is based on is one of the best book series I have ever read, but this TV show is the worst TV show I have ever seen.",
-    ]
-    features = mean_pooling_feature_extractor.extract_features(dummy_corpus[0])
-    # lrc = MeanPoolingWordVectorFeatureExtractor(unigram)
-    print(features)
-    # lrc.weights = [-2,1,2]
-    # lrc.bias = -1
-    # print(lrc.predict("foo bar"))
-    # lrc.training_step([SentimentExample(words="hi hi world", label=1), SentimentExample(words="foo bar", label=0)], 0.5)
-
