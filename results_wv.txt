@@ -1,0 +1,4800 @@
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=5, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6753 / 10000 = 0.6753
+Precision: 4653 / 7570 = 0.6147
+Recall: 4653 / 4983 = 0.9338
+F1 (harmonic mean of precision and recall): 0.7413
+=====Dev Accuracy=====
+Accuracy: 1370 / 2000 = 0.6850
+Precision: 946 / 1501 = 0.6302
+Recall: 946 / 1021 = 0.9265
+F1 (harmonic mean of precision and recall): 0.7502
+Time for training and evaluation: 49.90 seconds
+=====Test Accuracy=====
+Accuracy: 16766 / 25000 = 0.6706
+Precision: 11457 / 18648 = 0.6144
+Recall: 11457 / 12500 = 0.9166
+F1 (harmonic mean of precision and recall): 0.7356
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=5, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7465 / 10000 = 0.7465
+Precision: 3485 / 4522 = 0.7707
+Recall: 3485 / 4983 = 0.6994
+F1 (harmonic mean of precision and recall): 0.7333
+=====Dev Accuracy=====
+Accuracy: 1462 / 2000 = 0.7310
+Precision: 694 / 905 = 0.7669
+Recall: 694 / 1021 = 0.6797
+F1 (harmonic mean of precision and recall): 0.7207
+Time for training and evaluation: 40.37 seconds
+=====Test Accuracy=====
+Accuracy: 18524 / 25000 = 0.7410
+Precision: 8448 / 10872 = 0.7770
+Recall: 8448 / 12500 = 0.6758
+F1 (harmonic mean of precision and recall): 0.7229
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=5, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6157 / 10000 = 0.6157
+Precision: 4807 / 8474 = 0.5673
+Recall: 4807 / 4983 = 0.9647
+F1 (harmonic mean of precision and recall): 0.7144
+=====Dev Accuracy=====
+Accuracy: 1242 / 2000 = 0.6210
+Precision: 973 / 1683 = 0.5781
+Recall: 973 / 1021 = 0.9530
+F1 (harmonic mean of precision and recall): 0.7197
+Time for training and evaluation: 52.26 seconds
+=====Test Accuracy=====
+Accuracy: 15459 / 25000 = 0.6184
+Precision: 11935 / 20911 = 0.5708
+Recall: 11935 / 12500 = 0.9548
+F1 (harmonic mean of precision and recall): 0.7144
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=5, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5353 / 10000 = 0.5353
+Precision: 4944 / 9552 = 0.5176
+Recall: 4944 / 4983 = 0.9922
+F1 (harmonic mean of precision and recall): 0.6803
+=====Dev Accuracy=====
+Accuracy: 1082 / 2000 = 0.5410
+Precision: 1010 / 1917 = 0.5269
+Recall: 1010 / 1021 = 0.9892
+F1 (harmonic mean of precision and recall): 0.6875
+Time for training and evaluation: 67.68 seconds
+=====Test Accuracy=====
+Accuracy: 13422 / 25000 = 0.5369
+Precision: 12387 / 23852 = 0.5193
+Recall: 12387 / 12500 = 0.9910
+F1 (harmonic mean of precision and recall): 0.6815
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=5, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5791 / 10000 = 0.5791
+Precision: 4895 / 9016 = 0.5429
+Recall: 4895 / 4983 = 0.9823
+F1 (harmonic mean of precision and recall): 0.6993
+=====Dev Accuracy=====
+Accuracy: 1151 / 2000 = 0.5755
+Precision: 994 / 1816 = 0.5474
+Recall: 994 / 1021 = 0.9736
+F1 (harmonic mean of precision and recall): 0.7007
+Time for training and evaluation: 67.89 seconds
+=====Test Accuracy=====
+Accuracy: 14477 / 25000 = 0.5791
+Precision: 12214 / 22451 = 0.5440
+Recall: 12214 / 12500 = 0.9771
+F1 (harmonic mean of precision and recall): 0.6989
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=5, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5175 / 10000 = 0.5175
+Precision: 4961 / 9764 = 0.5081
+Recall: 4961 / 4983 = 0.9956
+F1 (harmonic mean of precision and recall): 0.6728
+=====Dev Accuracy=====
+Accuracy: 1057 / 2000 = 0.5285
+Precision: 1016 / 1954 = 0.5200
+Recall: 1016 / 1021 = 0.9951
+F1 (harmonic mean of precision and recall): 0.6830
+Time for training and evaluation: 68.12 seconds
+=====Test Accuracy=====
+Accuracy: 13021 / 25000 = 0.5208
+Precision: 12431 / 24341 = 0.5107
+Recall: 12431 / 12500 = 0.9945
+F1 (harmonic mean of precision and recall): 0.6748
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=5, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5073 / 10000 = 0.5073
+Precision: 4970 / 9884 = 0.5028
+Recall: 4970 / 4983 = 0.9974
+F1 (harmonic mean of precision and recall): 0.6686
+=====Dev Accuracy=====
+Accuracy: 1029 / 2000 = 0.5145
+Precision: 1017 / 1984 = 0.5126
+Recall: 1017 / 1021 = 0.9961
+F1 (harmonic mean of precision and recall): 0.6769
+Time for training and evaluation: 68.37 seconds
+=====Test Accuracy=====
+Accuracy: 12753 / 25000 = 0.5101
+Precision: 12469 / 24685 = 0.5051
+Recall: 12469 / 12500 = 0.9975
+F1 (harmonic mean of precision and recall): 0.6706
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=5, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4994 / 10000 = 0.4994
+Precision: 4981 / 9985 = 0.4988
+Recall: 4981 / 4983 = 0.9996
+F1 (harmonic mean of precision and recall): 0.6656
+=====Dev Accuracy=====
+Accuracy: 1023 / 2000 = 0.5115
+Precision: 1021 / 1998 = 0.5110
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6764
+Time for training and evaluation: 67.93 seconds
+=====Test Accuracy=====
+Accuracy: 12525 / 25000 = 0.5010
+Precision: 12498 / 24971 = 0.5005
+Recall: 12498 / 12500 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6671
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=10, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5077 / 10000 = 0.5077
+Precision: 4964 / 9868 = 0.5030
+Recall: 4964 / 4983 = 0.9962
+F1 (harmonic mean of precision and recall): 0.6685
+=====Dev Accuracy=====
+Accuracy: 1033 / 2000 = 0.5165
+Precision: 1016 / 1978 = 0.5137
+Recall: 1016 / 1021 = 0.9951
+F1 (harmonic mean of precision and recall): 0.6776
+Time for training and evaluation: 67.79 seconds
+=====Test Accuracy=====
+Accuracy: 12770 / 25000 = 0.5108
+Precision: 12462 / 24654 = 0.5055
+Recall: 12462 / 12500 = 0.9970
+F1 (harmonic mean of precision and recall): 0.6708
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=10, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4983 / 10000 = 0.4983
+Precision: 4983 / 10000 = 0.4983
+Recall: 4983 / 4983 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 1021 / 2000 = 0.5105
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6759
+Time for training and evaluation: 68.09 seconds
+=====Test Accuracy=====
+Accuracy: 12503 / 25000 = 0.5001
+Precision: 12500 / 24997 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6667
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=10, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7090 / 10000 = 0.7090
+Precision: 4324 / 6575 = 0.6576
+Recall: 4324 / 4983 = 0.8678
+F1 (harmonic mean of precision and recall): 0.7482
+=====Dev Accuracy=====
+Accuracy: 1434 / 2000 = 0.7170
+Precision: 887 / 1319 = 0.6725
+Recall: 887 / 1021 = 0.8688
+F1 (harmonic mean of precision and recall): 0.7581
+Time for training and evaluation: 67.84 seconds
+=====Test Accuracy=====
+Accuracy: 17648 / 25000 = 0.7059
+Precision: 10632 / 16116 = 0.6597
+Recall: 10632 / 12500 = 0.8506
+F1 (harmonic mean of precision and recall): 0.7431
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=10, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6977 / 10000 = 0.6977
+Precision: 2580 / 3200 = 0.8063
+Recall: 2580 / 4983 = 0.5178
+F1 (harmonic mean of precision and recall): 0.6306
+=====Dev Accuracy=====
+Accuracy: 1353 / 2000 = 0.6765
+Precision: 507 / 640 = 0.7922
+Recall: 507 / 1021 = 0.4966
+F1 (harmonic mean of precision and recall): 0.6105
+Time for training and evaluation: 68.00 seconds
+=====Test Accuracy=====
+Accuracy: 17369 / 25000 = 0.6948
+Precision: 6340 / 7811 = 0.8117
+Recall: 6340 / 12500 = 0.5072
+F1 (harmonic mean of precision and recall): 0.6243
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=10, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7338 / 10000 = 0.7338
+Precision: 3343 / 4365 = 0.7659
+Recall: 3343 / 4983 = 0.6709
+F1 (harmonic mean of precision and recall): 0.7152
+=====Dev Accuracy=====
+Accuracy: 1428 / 2000 = 0.7140
+Precision: 664 / 879 = 0.7554
+Recall: 664 / 1021 = 0.6503
+F1 (harmonic mean of precision and recall): 0.6989
+Time for training and evaluation: 67.84 seconds
+=====Test Accuracy=====
+Accuracy: 18196 / 25000 = 0.7278
+Precision: 8127 / 10558 = 0.7697
+Recall: 8127 / 12500 = 0.6502
+F1 (harmonic mean of precision and recall): 0.7049
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=10, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6530 / 10000 = 0.6530
+Precision: 4678 / 7843 = 0.5965
+Recall: 4678 / 4983 = 0.9388
+F1 (harmonic mean of precision and recall): 0.7295
+=====Dev Accuracy=====
+Accuracy: 1333 / 2000 = 0.6665
+Precision: 951 / 1548 = 0.6143
+Recall: 951 / 1021 = 0.9314
+F1 (harmonic mean of precision and recall): 0.7404
+Time for training and evaluation: 68.17 seconds
+=====Test Accuracy=====
+Accuracy: 16337 / 25000 = 0.6535
+Precision: 11594 / 19351 = 0.5991
+Recall: 11594 / 12500 = 0.9275
+F1 (harmonic mean of precision and recall): 0.7280
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=10, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5294 / 10000 = 0.5294
+Precision: 4943 / 9609 = 0.5144
+Recall: 4943 / 4983 = 0.9920
+F1 (harmonic mean of precision and recall): 0.6775
+=====Dev Accuracy=====
+Accuracy: 1074 / 2000 = 0.5370
+Precision: 1011 / 1927 = 0.5246
+Recall: 1011 / 1021 = 0.9902
+F1 (harmonic mean of precision and recall): 0.6859
+Time for training and evaluation: 67.70 seconds
+=====Test Accuracy=====
+Accuracy: 13268 / 25000 = 0.5307
+Precision: 12370 / 23972 = 0.5160
+Recall: 12370 / 12500 = 0.9896
+F1 (harmonic mean of precision and recall): 0.6783
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=10, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6086 / 10000 = 0.6086
+Precision: 4818 / 8567 = 0.5624
+Recall: 4818 / 4983 = 0.9669
+F1 (harmonic mean of precision and recall): 0.7111
+=====Dev Accuracy=====
+Accuracy: 1218 / 2000 = 0.6090
+Precision: 979 / 1719 = 0.5695
+Recall: 979 / 1021 = 0.9589
+F1 (harmonic mean of precision and recall): 0.7146
+Time for training and evaluation: 67.80 seconds
+=====Test Accuracy=====
+Accuracy: 15267 / 25000 = 0.6107
+Precision: 11959 / 21151 = 0.5654
+Recall: 11959 / 12500 = 0.9567
+F1 (harmonic mean of precision and recall): 0.7108
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=15, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6043 / 10000 = 0.6043
+Precision: 4768 / 8510 = 0.5603
+Recall: 4768 / 4983 = 0.9569
+F1 (harmonic mean of precision and recall): 0.7067
+=====Dev Accuracy=====
+Accuracy: 1219 / 2000 = 0.6095
+Precision: 973 / 1706 = 0.5703
+Recall: 973 / 1021 = 0.9530
+F1 (harmonic mean of precision and recall): 0.7136
+Time for training and evaluation: 67.43 seconds
+=====Test Accuracy=====
+Accuracy: 15194 / 25000 = 0.6078
+Precision: 11850 / 21006 = 0.5641
+Recall: 11850 / 12500 = 0.9480
+F1 (harmonic mean of precision and recall): 0.7073
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=15, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5419 / 10000 = 0.5419
+Precision: 434 / 466 = 0.9313
+Recall: 434 / 4983 = 0.0871
+F1 (harmonic mean of precision and recall): 0.1593
+=====Dev Accuracy=====
+Accuracy: 1046 / 2000 = 0.5230
+Precision: 75 / 83 = 0.9036
+Recall: 75 / 1021 = 0.0735
+F1 (harmonic mean of precision and recall): 0.1359
+Time for training and evaluation: 68.58 seconds
+=====Test Accuracy=====
+Accuracy: 13514 / 25000 = 0.5406
+Precision: 1093 / 1172 = 0.9326
+Recall: 1093 / 12500 = 0.0874
+F1 (harmonic mean of precision and recall): 0.1599
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=15, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6595 / 10000 = 0.6595
+Precision: 1983 / 2388 = 0.8304
+Recall: 1983 / 4983 = 0.3980
+F1 (harmonic mean of precision and recall): 0.5381
+=====Dev Accuracy=====
+Accuracy: 1286 / 2000 = 0.6430
+Precision: 394 / 481 = 0.8191
+Recall: 394 / 1021 = 0.3859
+F1 (harmonic mean of precision and recall): 0.5246
+Time for training and evaluation: 67.70 seconds
+=====Test Accuracy=====
+Accuracy: 16261 / 25000 = 0.6504
+Precision: 4773 / 5785 = 0.8251
+Recall: 4773 / 12500 = 0.3818
+F1 (harmonic mean of precision and recall): 0.5221
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=15, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5049 / 10000 = 0.5049
+Precision: 32 / 32 = 1.0000
+Recall: 32 / 4983 = 0.0064
+F1 (harmonic mean of precision and recall): 0.0128
+=====Dev Accuracy=====
+Accuracy: 980 / 2000 = 0.4900
+Precision: 1 / 1 = 1.0000
+Recall: 1 / 1021 = 0.0010
+F1 (harmonic mean of precision and recall): 0.0020
+Time for training and evaluation: 67.83 seconds
+=====Test Accuracy=====
+Accuracy: 12558 / 25000 = 0.5023
+Precision: 60 / 62 = 0.9677
+Recall: 60 / 12500 = 0.0048
+F1 (harmonic mean of precision and recall): 0.0096
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=15, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5040 / 10000 = 0.5040
+Precision: 4966 / 9909 = 0.5012
+Recall: 4966 / 4983 = 0.9966
+F1 (harmonic mean of precision and recall): 0.6669
+=====Dev Accuracy=====
+Accuracy: 1027 / 2000 = 0.5135
+Precision: 1016 / 1984 = 0.5121
+Recall: 1016 / 1021 = 0.9951
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 67.38 seconds
+=====Test Accuracy=====
+Accuracy: 12679 / 25000 = 0.5072
+Precision: 12467 / 24755 = 0.5036
+Recall: 12467 / 12500 = 0.9974
+F1 (harmonic mean of precision and recall): 0.6693
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=15, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6456 / 10000 = 0.6456
+Precision: 4556 / 7673 = 0.5938
+Recall: 4556 / 4983 = 0.9143
+F1 (harmonic mean of precision and recall): 0.7200
+=====Dev Accuracy=====
+Accuracy: 1325 / 2000 = 0.6625
+Precision: 932 / 1518 = 0.6140
+Recall: 932 / 1021 = 0.9128
+F1 (harmonic mean of precision and recall): 0.7341
+Time for training and evaluation: 67.62 seconds
+=====Test Accuracy=====
+Accuracy: 16149 / 25000 = 0.6460
+Precision: 11280 / 18911 = 0.5965
+Recall: 11280 / 12500 = 0.9024
+F1 (harmonic mean of precision and recall): 0.7182
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=15, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5219 / 10000 = 0.5219
+Precision: 4952 / 9702 = 0.5104
+Recall: 4952 / 4983 = 0.9938
+F1 (harmonic mean of precision and recall): 0.6744
+=====Dev Accuracy=====
+Accuracy: 1066 / 2000 = 0.5330
+Precision: 1011 / 1935 = 0.5225
+Recall: 1011 / 1021 = 0.9902
+F1 (harmonic mean of precision and recall): 0.6840
+Time for training and evaluation: 67.66 seconds
+=====Test Accuracy=====
+Accuracy: 13106 / 25000 = 0.5242
+Precision: 12380 / 24154 = 0.5125
+Recall: 12380 / 12500 = 0.9904
+F1 (harmonic mean of precision and recall): 0.6755
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=15, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6893 / 10000 = 0.6893
+Precision: 4301 / 6726 = 0.6395
+Recall: 4301 / 4983 = 0.8631
+F1 (harmonic mean of precision and recall): 0.7346
+=====Dev Accuracy=====
+Accuracy: 1402 / 2000 = 0.7010
+Precision: 884 / 1345 = 0.6572
+Recall: 884 / 1021 = 0.8658
+F1 (harmonic mean of precision and recall): 0.7473
+Time for training and evaluation: 68.13 seconds
+=====Test Accuracy=====
+Accuracy: 17218 / 25000 = 0.6887
+Precision: 10652 / 16586 = 0.6422
+Recall: 10652 / 12500 = 0.8522
+F1 (harmonic mean of precision and recall): 0.7324
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=20, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6596 / 10000 = 0.6596
+Precision: 4316 / 7053 = 0.6119
+Recall: 4316 / 4983 = 0.8661
+F1 (harmonic mean of precision and recall): 0.7172
+=====Dev Accuracy=====
+Accuracy: 1346 / 2000 = 0.6730
+Precision: 883 / 1399 = 0.6312
+Recall: 883 / 1021 = 0.8648
+F1 (harmonic mean of precision and recall): 0.7298
+Time for training and evaluation: 67.50 seconds
+=====Test Accuracy=====
+Accuracy: 16577 / 25000 = 0.6631
+Precision: 10682 / 17287 = 0.6179
+Recall: 10682 / 12500 = 0.8546
+F1 (harmonic mean of precision and recall): 0.7172
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=20, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4993 / 10000 = 0.4993
+Precision: 4978 / 9980 = 0.4988
+Recall: 4978 / 4983 = 0.9990
+F1 (harmonic mean of precision and recall): 0.6654
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 1020 / 1998 = 0.5105
+Recall: 1020 / 1021 = 0.9990
+F1 (harmonic mean of precision and recall): 0.6757
+Time for training and evaluation: 67.95 seconds
+=====Test Accuracy=====
+Accuracy: 12530 / 25000 = 0.5012
+Precision: 12497 / 24964 = 0.5006
+Recall: 12497 / 12500 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6671
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=20, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6564 / 10000 = 0.6564
+Precision: 2008 / 2469 = 0.8133
+Recall: 2008 / 4983 = 0.4030
+F1 (harmonic mean of precision and recall): 0.5389
+=====Dev Accuracy=====
+Accuracy: 1271 / 2000 = 0.6355
+Precision: 396 / 500 = 0.7920
+Recall: 396 / 1021 = 0.3879
+F1 (harmonic mean of precision and recall): 0.5207
+Time for training and evaluation: 68.52 seconds
+=====Test Accuracy=====
+Accuracy: 16110 / 25000 = 0.6444
+Precision: 4771 / 5932 = 0.8043
+Recall: 4771 / 12500 = 0.3817
+F1 (harmonic mean of precision and recall): 0.5177
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=20, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5096 / 10000 = 0.5096
+Precision: 84 / 89 = 0.9438
+Recall: 84 / 4983 = 0.0169
+F1 (harmonic mean of precision and recall): 0.0331
+=====Dev Accuracy=====
+Accuracy: 986 / 2000 = 0.4930
+Precision: 10 / 13 = 0.7692
+Recall: 10 / 1021 = 0.0098
+F1 (harmonic mean of precision and recall): 0.0193
+Time for training and evaluation: 67.95 seconds
+=====Test Accuracy=====
+Accuracy: 12725 / 25000 = 0.5090
+Precision: 237 / 249 = 0.9518
+Recall: 237 / 12500 = 0.0190
+F1 (harmonic mean of precision and recall): 0.0372
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=20, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6979 / 10000 = 0.6979
+Precision: 3323 / 4684 = 0.7094
+Recall: 3323 / 4983 = 0.6669
+F1 (harmonic mean of precision and recall): 0.6875
+=====Dev Accuracy=====
+Accuracy: 1383 / 2000 = 0.6915
+Precision: 682 / 960 = 0.7104
+Recall: 682 / 1021 = 0.6680
+F1 (harmonic mean of precision and recall): 0.6885
+Time for training and evaluation: 67.79 seconds
+=====Test Accuracy=====
+Accuracy: 17383 / 25000 = 0.6953
+Precision: 8171 / 11459 = 0.7131
+Recall: 8171 / 12500 = 0.6537
+F1 (harmonic mean of precision and recall): 0.6821
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=20, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4990 / 10000 = 0.4990
+Precision: 4977 / 9981 = 0.4986
+Recall: 4977 / 4983 = 0.9988
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 1020 / 1998 = 0.5105
+Recall: 1020 / 1021 = 0.9990
+F1 (harmonic mean of precision and recall): 0.6757
+Time for training and evaluation: 67.54 seconds
+=====Test Accuracy=====
+Accuracy: 12527 / 25000 = 0.5011
+Precision: 12496 / 24965 = 0.5005
+Recall: 12496 / 12500 = 0.9997
+F1 (harmonic mean of precision and recall): 0.6671
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=20, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4988 / 10000 = 0.4988
+Precision: 4980 / 9989 = 0.4985
+Recall: 4980 / 4983 = 0.9994
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1022 / 2000 = 0.5110
+Precision: 1021 / 1999 = 0.5108
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 68.01 seconds
+=====Test Accuracy=====
+Accuracy: 12515 / 25000 = 0.5006
+Precision: 12499 / 24983 = 0.5003
+Recall: 12499 / 12500 = 0.9999
+F1 (harmonic mean of precision and recall): 0.6669
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=20, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4982 / 10000 = 0.4982
+Precision: 4982 / 9999 = 0.4982
+Recall: 4982 / 4983 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6651
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 1021 / 2000 = 0.5105
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6759
+Time for training and evaluation: 68.22 seconds
+=====Test Accuracy=====
+Accuracy: 12503 / 25000 = 0.5001
+Precision: 12500 / 24997 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6667
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=25, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6389 / 10000 = 0.6389
+Precision: 4418 / 7464 = 0.5919
+Recall: 4418 / 4983 = 0.8866
+F1 (harmonic mean of precision and recall): 0.7099
+=====Dev Accuracy=====
+Accuracy: 1287 / 2000 = 0.6435
+Precision: 906 / 1504 = 0.6024
+Recall: 906 / 1021 = 0.8874
+F1 (harmonic mean of precision and recall): 0.7176
+Time for training and evaluation: 67.39 seconds
+=====Test Accuracy=====
+Accuracy: 15895 / 25000 = 0.6358
+Precision: 10930 / 18465 = 0.5919
+Recall: 10930 / 12500 = 0.8744
+F1 (harmonic mean of precision and recall): 0.7060
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=25, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6822 / 10000 = 0.6822
+Precision: 3667 / 5529 = 0.6632
+Recall: 3667 / 4983 = 0.7359
+F1 (harmonic mean of precision and recall): 0.6977
+=====Dev Accuracy=====
+Accuracy: 1372 / 2000 = 0.6860
+Precision: 759 / 1125 = 0.6747
+Recall: 759 / 1021 = 0.7434
+F1 (harmonic mean of precision and recall): 0.7074
+Time for training and evaluation: 67.87 seconds
+=====Test Accuracy=====
+Accuracy: 16945 / 25000 = 0.6778
+Precision: 9038 / 13631 = 0.6630
+Recall: 9038 / 12500 = 0.7230
+F1 (harmonic mean of precision and recall): 0.6917
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=25, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6722 / 10000 = 0.6722
+Precision: 4019 / 6333 = 0.6346
+Recall: 4019 / 4983 = 0.8065
+F1 (harmonic mean of precision and recall): 0.7103
+=====Dev Accuracy=====
+Accuracy: 1361 / 2000 = 0.6805
+Precision: 823 / 1264 = 0.6511
+Recall: 823 / 1021 = 0.8061
+F1 (harmonic mean of precision and recall): 0.7204
+Time for training and evaluation: 67.47 seconds
+=====Test Accuracy=====
+Accuracy: 16764 / 25000 = 0.6706
+Precision: 9909 / 15554 = 0.6371
+Recall: 9909 / 12500 = 0.7927
+F1 (harmonic mean of precision and recall): 0.7064
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=25, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5048 / 10000 = 0.5048
+Precision: 4956 / 9881 = 0.5016
+Recall: 4956 / 4983 = 0.9946
+F1 (harmonic mean of precision and recall): 0.6668
+=====Dev Accuracy=====
+Accuracy: 1032 / 2000 = 0.5160
+Precision: 1015 / 1977 = 0.5134
+Recall: 1015 / 1021 = 0.9941
+F1 (harmonic mean of precision and recall): 0.6771
+Time for training and evaluation: 76.63 seconds
+=====Test Accuracy=====
+Accuracy: 12695 / 25000 = 0.5078
+Precision: 12438 / 24681 = 0.5040
+Recall: 12438 / 12500 = 0.9950
+F1 (harmonic mean of precision and recall): 0.6691
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=25, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5374 / 10000 = 0.5374
+Precision: 395 / 433 = 0.9122
+Recall: 395 / 4983 = 0.0793
+F1 (harmonic mean of precision and recall): 0.1459
+=====Dev Accuracy=====
+Accuracy: 1047 / 2000 = 0.5235
+Precision: 76 / 84 = 0.9048
+Recall: 76 / 1021 = 0.0744
+F1 (harmonic mean of precision and recall): 0.1376
+Time for training and evaluation: 67.74 seconds
+=====Test Accuracy=====
+Accuracy: 13449 / 25000 = 0.5380
+Precision: 1048 / 1147 = 0.9137
+Recall: 1048 / 12500 = 0.0838
+F1 (harmonic mean of precision and recall): 0.1536
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=25, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6554 / 10000 = 0.6554
+Precision: 2043 / 2549 = 0.8015
+Recall: 2043 / 4983 = 0.4100
+F1 (harmonic mean of precision and recall): 0.5425
+=====Dev Accuracy=====
+Accuracy: 1283 / 2000 = 0.6415
+Precision: 418 / 532 = 0.7857
+Recall: 418 / 1021 = 0.4094
+F1 (harmonic mean of precision and recall): 0.5383
+Time for training and evaluation: 67.64 seconds
+=====Test Accuracy=====
+Accuracy: 16127 / 25000 = 0.6451
+Precision: 4877 / 6127 = 0.7960
+Recall: 4877 / 12500 = 0.3902
+F1 (harmonic mean of precision and recall): 0.5236
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=25, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5143 / 10000 = 0.5143
+Precision: 140 / 154 = 0.9091
+Recall: 140 / 4983 = 0.0281
+F1 (harmonic mean of precision and recall): 0.0545
+=====Dev Accuracy=====
+Accuracy: 996 / 2000 = 0.4980
+Precision: 22 / 27 = 0.8148
+Recall: 22 / 1021 = 0.0215
+F1 (harmonic mean of precision and recall): 0.0420
+Time for training and evaluation: 67.64 seconds
+=====Test Accuracy=====
+Accuracy: 12879 / 25000 = 0.5152
+Precision: 410 / 441 = 0.9297
+Recall: 410 / 12500 = 0.0328
+F1 (harmonic mean of precision and recall): 0.0634
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=25, epochs=3, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6194 / 10000 = 0.6194
+Precision: 1436 / 1695 = 0.8472
+Recall: 1436 / 4983 = 0.2882
+F1 (harmonic mean of precision and recall): 0.4301
+=====Dev Accuracy=====
+Accuracy: 1212 / 2000 = 0.6060
+Precision: 293 / 353 = 0.8300
+Recall: 293 / 1021 = 0.2870
+F1 (harmonic mean of precision and recall): 0.4265
+Time for training and evaluation: 67.68 seconds
+=====Test Accuracy=====
+Accuracy: 15306 / 25000 = 0.6122
+Precision: 3472 / 4138 = 0.8391
+Recall: 3472 / 12500 = 0.2778
+F1 (harmonic mean of precision and recall): 0.4174
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=5, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7383 / 10000 = 0.7383
+Precision: 3268 / 4170 = 0.7837
+Recall: 3268 / 4983 = 0.6558
+F1 (harmonic mean of precision and recall): 0.7141
+=====Dev Accuracy=====
+Accuracy: 1434 / 2000 = 0.7170
+Precision: 643 / 831 = 0.7738
+Recall: 643 / 1021 = 0.6298
+F1 (harmonic mean of precision and recall): 0.6944
+Time for training and evaluation: 80.82 seconds
+=====Test Accuracy=====
+Accuracy: 18363 / 25000 = 0.7345
+Precision: 7970 / 10077 = 0.7909
+Recall: 7970 / 12500 = 0.6376
+F1 (harmonic mean of precision and recall): 0.7060
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=5, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5361 / 10000 = 0.5361
+Precision: 4947 / 9550 = 0.5180
+Recall: 4947 / 4983 = 0.9928
+F1 (harmonic mean of precision and recall): 0.6808
+=====Dev Accuracy=====
+Accuracy: 1087 / 2000 = 0.5435
+Precision: 1012 / 1916 = 0.5282
+Recall: 1012 / 1021 = 0.9912
+F1 (harmonic mean of precision and recall): 0.6891
+Time for training and evaluation: 80.74 seconds
+=====Test Accuracy=====
+Accuracy: 13458 / 25000 = 0.5383
+Precision: 12387 / 23816 = 0.5201
+Recall: 12387 / 12500 = 0.9910
+F1 (harmonic mean of precision and recall): 0.6822
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=5, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5214 / 10000 = 0.5214
+Precision: 4961 / 9725 = 0.5101
+Recall: 4961 / 4983 = 0.9956
+F1 (harmonic mean of precision and recall): 0.6746
+=====Dev Accuracy=====
+Accuracy: 1068 / 2000 = 0.5340
+Precision: 1017 / 1945 = 0.5229
+Recall: 1017 / 1021 = 0.9961
+F1 (harmonic mean of precision and recall): 0.6858
+Time for training and evaluation: 80.71 seconds
+=====Test Accuracy=====
+Accuracy: 13071 / 25000 = 0.5228
+Precision: 12431 / 24291 = 0.5118
+Recall: 12431 / 12500 = 0.9945
+F1 (harmonic mean of precision and recall): 0.6758
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=5, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4988 / 10000 = 0.4988
+Precision: 4982 / 9993 = 0.4985
+Recall: 4982 / 4983 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6653
+=====Dev Accuracy=====
+Accuracy: 1023 / 2000 = 0.5115
+Precision: 1021 / 1998 = 0.5110
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6764
+Time for training and evaluation: 81.07 seconds
+=====Test Accuracy=====
+Accuracy: 12513 / 25000 = 0.5005
+Precision: 12500 / 24987 = 0.5003
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6669
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=5, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7446 / 10000 = 0.7446
+Precision: 3913 / 5397 = 0.7250
+Recall: 3913 / 4983 = 0.7853
+F1 (harmonic mean of precision and recall): 0.7539
+=====Dev Accuracy=====
+Accuracy: 1493 / 2000 = 0.7465
+Precision: 802 / 1090 = 0.7358
+Recall: 802 / 1021 = 0.7855
+F1 (harmonic mean of precision and recall): 0.7598
+Time for training and evaluation: 81.02 seconds
+=====Test Accuracy=====
+Accuracy: 18575 / 25000 = 0.7430
+Precision: 9579 / 13083 = 0.7322
+Recall: 9579 / 12500 = 0.7663
+F1 (harmonic mean of precision and recall): 0.7489
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=5, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5667 / 10000 = 0.5667
+Precision: 4918 / 9186 = 0.5354
+Recall: 4918 / 4983 = 0.9870
+F1 (harmonic mean of precision and recall): 0.6942
+=====Dev Accuracy=====
+Accuracy: 1127 / 2000 = 0.5635
+Precision: 999 / 1850 = 0.5400
+Recall: 999 / 1021 = 0.9785
+F1 (harmonic mean of precision and recall): 0.6959
+Time for training and evaluation: 80.56 seconds
+=====Test Accuracy=====
+Accuracy: 14145 / 25000 = 0.5658
+Precision: 12275 / 22905 = 0.5359
+Recall: 12275 / 12500 = 0.9820
+F1 (harmonic mean of precision and recall): 0.6934
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=5, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7100 / 10000 = 0.7100
+Precision: 4507 / 6931 = 0.6503
+Recall: 4507 / 4983 = 0.9045
+F1 (harmonic mean of precision and recall): 0.7566
+=====Dev Accuracy=====
+Accuracy: 1438 / 2000 = 0.7190
+Precision: 919 / 1379 = 0.6664
+Recall: 919 / 1021 = 0.9001
+F1 (harmonic mean of precision and recall): 0.7658
+Time for training and evaluation: 80.85 seconds
+=====Test Accuracy=====
+Accuracy: 17569 / 25000 = 0.7028
+Precision: 11053 / 17037 = 0.6488
+Recall: 11053 / 12500 = 0.8842
+F1 (harmonic mean of precision and recall): 0.7484
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=5, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4990 / 10000 = 0.4990
+Precision: 4982 / 9991 = 0.4986
+Recall: 4982 / 4983 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6654
+=====Dev Accuracy=====
+Accuracy: 1023 / 2000 = 0.5115
+Precision: 1021 / 1998 = 0.5110
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6764
+Time for training and evaluation: 81.62 seconds
+=====Test Accuracy=====
+Accuracy: 12515 / 25000 = 0.5006
+Precision: 12497 / 24979 = 0.5003
+Recall: 12497 / 12500 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6669
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=10, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7363 / 10000 = 0.7363
+Precision: 3429 / 4512 = 0.7600
+Recall: 3429 / 4983 = 0.6881
+F1 (harmonic mean of precision and recall): 0.7223
+=====Dev Accuracy=====
+Accuracy: 1454 / 2000 = 0.7270
+Precision: 694 / 913 = 0.7601
+Recall: 694 / 1021 = 0.6797
+F1 (harmonic mean of precision and recall): 0.7177
+Time for training and evaluation: 81.02 seconds
+=====Test Accuracy=====
+Accuracy: 18299 / 25000 = 0.7320
+Precision: 8337 / 10875 = 0.7666
+Recall: 8337 / 12500 = 0.6670
+F1 (harmonic mean of precision and recall): 0.7133
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=10, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4994 / 10000 = 0.4994
+Precision: 4981 / 9985 = 0.4988
+Recall: 4981 / 4983 = 0.9996
+F1 (harmonic mean of precision and recall): 0.6656
+=====Dev Accuracy=====
+Accuracy: 1023 / 2000 = 0.5115
+Precision: 1021 / 1998 = 0.5110
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6764
+Time for training and evaluation: 81.35 seconds
+=====Test Accuracy=====
+Accuracy: 12531 / 25000 = 0.5012
+Precision: 12498 / 24965 = 0.5006
+Recall: 12498 / 12500 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6672
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=10, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7370 / 10000 = 0.7370
+Precision: 3853 / 5353 = 0.7198
+Recall: 3853 / 4983 = 0.7732
+F1 (harmonic mean of precision and recall): 0.7455
+=====Dev Accuracy=====
+Accuracy: 1467 / 2000 = 0.7335
+Precision: 786 / 1084 = 0.7251
+Recall: 786 / 1021 = 0.7698
+F1 (harmonic mean of precision and recall): 0.7468
+Time for training and evaluation: 80.89 seconds
+=====Test Accuracy=====
+Accuracy: 18323 / 25000 = 0.7329
+Precision: 9428 / 13033 = 0.7234
+Recall: 9428 / 12500 = 0.7542
+F1 (harmonic mean of precision and recall): 0.7385
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=10, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7408 / 10000 = 0.7408
+Precision: 3424 / 4457 = 0.7682
+Recall: 3424 / 4983 = 0.6871
+F1 (harmonic mean of precision and recall): 0.7254
+=====Dev Accuracy=====
+Accuracy: 1453 / 2000 = 0.7265
+Precision: 688 / 902 = 0.7627
+Recall: 688 / 1021 = 0.6738
+F1 (harmonic mean of precision and recall): 0.7155
+Time for training and evaluation: 80.88 seconds
+=====Test Accuracy=====
+Accuracy: 18380 / 25000 = 0.7352
+Precision: 8321 / 10762 = 0.7732
+Recall: 8321 / 12500 = 0.6657
+F1 (harmonic mean of precision and recall): 0.7154
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=10, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5813 / 10000 = 0.5813
+Precision: 866 / 936 = 0.9252
+Recall: 866 / 4983 = 0.1738
+F1 (harmonic mean of precision and recall): 0.2926
+=====Dev Accuracy=====
+Accuracy: 1133 / 2000 = 0.5665
+Precision: 172 / 190 = 0.9053
+Recall: 172 / 1021 = 0.1685
+F1 (harmonic mean of precision and recall): 0.2841
+Time for training and evaluation: 80.77 seconds
+=====Test Accuracy=====
+Accuracy: 14545 / 25000 = 0.5818
+Precision: 2220 / 2395 = 0.9269
+Recall: 2220 / 12500 = 0.1776
+F1 (harmonic mean of precision and recall): 0.2981
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=10, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5306 / 10000 = 0.5306
+Precision: 314 / 339 = 0.9263
+Recall: 314 / 4983 = 0.0630
+F1 (harmonic mean of precision and recall): 0.1180
+=====Dev Accuracy=====
+Accuracy: 1030 / 2000 = 0.5150
+Precision: 58 / 65 = 0.8923
+Recall: 58 / 1021 = 0.0568
+F1 (harmonic mean of precision and recall): 0.1068
+Time for training and evaluation: 80.85 seconds
+=====Test Accuracy=====
+Accuracy: 13269 / 25000 = 0.5308
+Precision: 816 / 863 = 0.9455
+Recall: 816 / 12500 = 0.0653
+F1 (harmonic mean of precision and recall): 0.1221
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=10, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5864 / 10000 = 0.5864
+Precision: 4873 / 8899 = 0.5476
+Recall: 4873 / 4983 = 0.9779
+F1 (harmonic mean of precision and recall): 0.7021
+=====Dev Accuracy=====
+Accuracy: 1176 / 2000 = 0.5880
+Precision: 989 / 1781 = 0.5553
+Recall: 989 / 1021 = 0.9687
+F1 (harmonic mean of precision and recall): 0.7059
+Time for training and evaluation: 83.55 seconds
+=====Test Accuracy=====
+Accuracy: 14670 / 25000 = 0.5868
+Precision: 12137 / 22104 = 0.5491
+Recall: 12137 / 12500 = 0.9710
+F1 (harmonic mean of precision and recall): 0.7015
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=10, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7273 / 10000 = 0.7273
+Precision: 4133 / 6010 = 0.6877
+Recall: 4133 / 4983 = 0.8294
+F1 (harmonic mean of precision and recall): 0.7519
+=====Dev Accuracy=====
+Accuracy: 1460 / 2000 = 0.7300
+Precision: 841 / 1201 = 0.7002
+Recall: 841 / 1021 = 0.8237
+F1 (harmonic mean of precision and recall): 0.7570
+Time for training and evaluation: 81.23 seconds
+=====Test Accuracy=====
+Accuracy: 18126 / 25000 = 0.7250
+Precision: 10146 / 14666 = 0.6918
+Recall: 10146 / 12500 = 0.8117
+F1 (harmonic mean of precision and recall): 0.7470
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=15, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4983 / 10000 = 0.4983
+Precision: 4983 / 10000 = 0.4983
+Recall: 4983 / 4983 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 1021 / 2000 = 0.5105
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6759
+Time for training and evaluation: 80.84 seconds
+=====Test Accuracy=====
+Accuracy: 12501 / 25000 = 0.5000
+Precision: 12500 / 24999 = 0.5000
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6667
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=15, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7236 / 10000 = 0.7236
+Precision: 3240 / 4261 = 0.7604
+Recall: 3240 / 4983 = 0.6502
+F1 (harmonic mean of precision and recall): 0.7010
+=====Dev Accuracy=====
+Accuracy: 1425 / 2000 = 0.7125
+Precision: 657 / 868 = 0.7569
+Recall: 657 / 1021 = 0.6435
+F1 (harmonic mean of precision and recall): 0.6956
+Time for training and evaluation: 81.12 seconds
+=====Test Accuracy=====
+Accuracy: 17988 / 25000 = 0.7195
+Precision: 7897 / 10306 = 0.7663
+Recall: 7897 / 12500 = 0.6318
+F1 (harmonic mean of precision and recall): 0.6925
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=15, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5570 / 10000 = 0.5570
+Precision: 4911 / 9269 = 0.5298
+Recall: 4911 / 4983 = 0.9856
+F1 (harmonic mean of precision and recall): 0.6892
+=====Dev Accuracy=====
+Accuracy: 1115 / 2000 = 0.5575
+Precision: 1001 / 1866 = 0.5364
+Recall: 1001 / 1021 = 0.9804
+F1 (harmonic mean of precision and recall): 0.6935
+Time for training and evaluation: 80.89 seconds
+=====Test Accuracy=====
+Accuracy: 13857 / 25000 = 0.5543
+Precision: 12256 / 23155 = 0.5293
+Recall: 12256 / 12500 = 0.9805
+F1 (harmonic mean of precision and recall): 0.6875
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=15, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6973 / 10000 = 0.6973
+Precision: 2506 / 3056 = 0.8200
+Recall: 2506 / 4983 = 0.5029
+F1 (harmonic mean of precision and recall): 0.6235
+=====Dev Accuracy=====
+Accuracy: 1365 / 2000 = 0.6825
+Precision: 503 / 620 = 0.8113
+Recall: 503 / 1021 = 0.4927
+F1 (harmonic mean of precision and recall): 0.6130
+Time for training and evaluation: 81.02 seconds
+=====Test Accuracy=====
+Accuracy: 17352 / 25000 = 0.6941
+Precision: 6164 / 7476 = 0.8245
+Recall: 6164 / 12500 = 0.4931
+F1 (harmonic mean of precision and recall): 0.6171
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=15, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7013 / 10000 = 0.7013
+Precision: 4310 / 6624 = 0.6507
+Recall: 4310 / 4983 = 0.8649
+F1 (harmonic mean of precision and recall): 0.7427
+=====Dev Accuracy=====
+Accuracy: 1428 / 2000 = 0.7140
+Precision: 882 / 1315 = 0.6707
+Recall: 882 / 1021 = 0.8639
+F1 (harmonic mean of precision and recall): 0.7551
+Time for training and evaluation: 80.55 seconds
+=====Test Accuracy=====
+Accuracy: 17503 / 25000 = 0.7001
+Precision: 10593 / 16183 = 0.6546
+Recall: 10593 / 12500 = 0.8474
+F1 (harmonic mean of precision and recall): 0.7386
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=15, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7109 / 10000 = 0.7109
+Precision: 3043 / 3994 = 0.7619
+Recall: 3043 / 4983 = 0.6107
+F1 (harmonic mean of precision and recall): 0.6780
+=====Dev Accuracy=====
+Accuracy: 1391 / 2000 = 0.6955
+Precision: 610 / 808 = 0.7550
+Recall: 610 / 1021 = 0.5975
+F1 (harmonic mean of precision and recall): 0.6670
+Time for training and evaluation: 81.27 seconds
+=====Test Accuracy=====
+Accuracy: 17648 / 25000 = 0.7059
+Precision: 7408 / 9668 = 0.7662
+Recall: 7408 / 12500 = 0.5926
+F1 (harmonic mean of precision and recall): 0.6684
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=15, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5276 / 10000 = 0.5276
+Precision: 282 / 305 = 0.9246
+Recall: 282 / 4983 = 0.0566
+F1 (harmonic mean of precision and recall): 0.1067
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 48 / 54 = 0.8889
+Recall: 48 / 1021 = 0.0470
+F1 (harmonic mean of precision and recall): 0.0893
+Time for training and evaluation: 81.22 seconds
+=====Test Accuracy=====
+Accuracy: 13193 / 25000 = 0.5277
+Precision: 737 / 781 = 0.9437
+Recall: 737 / 12500 = 0.0590
+F1 (harmonic mean of precision and recall): 0.1110
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=15, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4983 / 10000 = 0.4983
+Precision: 4983 / 10000 = 0.4983
+Recall: 4983 / 4983 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 1021 / 2000 = 0.5105
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6759
+Time for training and evaluation: 80.55 seconds
+=====Test Accuracy=====
+Accuracy: 12501 / 25000 = 0.5000
+Precision: 12500 / 24999 = 0.5000
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6667
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=20, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6907 / 10000 = 0.6907
+Precision: 2505 / 3120 = 0.8029
+Recall: 2505 / 4983 = 0.5027
+F1 (harmonic mean of precision and recall): 0.6183
+=====Dev Accuracy=====
+Accuracy: 1342 / 2000 = 0.6710
+Precision: 498 / 633 = 0.7867
+Recall: 498 / 1021 = 0.4878
+F1 (harmonic mean of precision and recall): 0.6022
+Time for training and evaluation: 81.05 seconds
+=====Test Accuracy=====
+Accuracy: 17079 / 25000 = 0.6832
+Precision: 6039 / 7499 = 0.8053
+Recall: 6039 / 12500 = 0.4831
+F1 (harmonic mean of precision and recall): 0.6039
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=20, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5157 / 10000 = 0.5157
+Precision: 4954 / 9768 = 0.5072
+Recall: 4954 / 4983 = 0.9942
+F1 (harmonic mean of precision and recall): 0.6717
+=====Dev Accuracy=====
+Accuracy: 1055 / 2000 = 0.5275
+Precision: 1012 / 1948 = 0.5195
+Recall: 1012 / 1021 = 0.9912
+F1 (harmonic mean of precision and recall): 0.6817
+Time for training and evaluation: 80.94 seconds
+=====Test Accuracy=====
+Accuracy: 12969 / 25000 = 0.5188
+Precision: 12406 / 24343 = 0.5096
+Recall: 12406 / 12500 = 0.9925
+F1 (harmonic mean of precision and recall): 0.6735
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=20, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5198 / 10000 = 0.5198
+Precision: 4948 / 9715 = 0.5093
+Recall: 4948 / 4983 = 0.9930
+F1 (harmonic mean of precision and recall): 0.6733
+=====Dev Accuracy=====
+Accuracy: 1058 / 2000 = 0.5290
+Precision: 1013 / 1947 = 0.5203
+Recall: 1013 / 1021 = 0.9922
+F1 (harmonic mean of precision and recall): 0.6826
+Time for training and evaluation: 80.93 seconds
+=====Test Accuracy=====
+Accuracy: 13067 / 25000 = 0.5227
+Precision: 12386 / 24205 = 0.5117
+Recall: 12386 / 12500 = 0.9909
+F1 (harmonic mean of precision and recall): 0.6749
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=20, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6120 / 10000 = 0.6120
+Precision: 4734 / 8365 = 0.5659
+Recall: 4734 / 4983 = 0.9500
+F1 (harmonic mean of precision and recall): 0.7093
+=====Dev Accuracy=====
+Accuracy: 1240 / 2000 = 0.6200
+Precision: 968 / 1675 = 0.5779
+Recall: 968 / 1021 = 0.9481
+F1 (harmonic mean of precision and recall): 0.7181
+Time for training and evaluation: 80.73 seconds
+=====Test Accuracy=====
+Accuracy: 15359 / 25000 = 0.6144
+Precision: 11765 / 20671 = 0.5692
+Recall: 11765 / 12500 = 0.9412
+F1 (harmonic mean of precision and recall): 0.7094
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=20, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7172 / 10000 = 0.7172
+Precision: 3484 / 4813 = 0.7239
+Recall: 3484 / 4983 = 0.6992
+F1 (harmonic mean of precision and recall): 0.7113
+=====Dev Accuracy=====
+Accuracy: 1412 / 2000 = 0.7060
+Precision: 708 / 983 = 0.7202
+Recall: 708 / 1021 = 0.6934
+F1 (harmonic mean of precision and recall): 0.7066
+Time for training and evaluation: 80.39 seconds
+=====Test Accuracy=====
+Accuracy: 17787 / 25000 = 0.7115
+Precision: 8533 / 11779 = 0.7244
+Recall: 8533 / 12500 = 0.6826
+F1 (harmonic mean of precision and recall): 0.7029
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=20, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6945 / 10000 = 0.6945
+Precision: 4228 / 6528 = 0.6477
+Recall: 4228 / 4983 = 0.8485
+F1 (harmonic mean of precision and recall): 0.7346
+=====Dev Accuracy=====
+Accuracy: 1412 / 2000 = 0.7060
+Precision: 868 / 1303 = 0.6662
+Recall: 868 / 1021 = 0.8501
+F1 (harmonic mean of precision and recall): 0.7470
+Time for training and evaluation: 81.26 seconds
+=====Test Accuracy=====
+Accuracy: 17303 / 25000 = 0.6921
+Precision: 10407 / 16011 = 0.6500
+Recall: 10407 / 12500 = 0.8326
+F1 (harmonic mean of precision and recall): 0.7300
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=20, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5249 / 10000 = 0.5249
+Precision: 254 / 276 = 0.9203
+Recall: 254 / 4983 = 0.0510
+F1 (harmonic mean of precision and recall): 0.0966
+=====Dev Accuracy=====
+Accuracy: 1016 / 2000 = 0.5080
+Precision: 42 / 47 = 0.8936
+Recall: 42 / 1021 = 0.0411
+F1 (harmonic mean of precision and recall): 0.0787
+Time for training and evaluation: 80.86 seconds
+=====Test Accuracy=====
+Accuracy: 13159 / 25000 = 0.5264
+Precision: 700 / 741 = 0.9447
+Recall: 700 / 12500 = 0.0560
+F1 (harmonic mean of precision and recall): 0.1057
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=20, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5033 / 10000 = 0.5033
+Precision: 4970 / 9924 = 0.5008
+Recall: 4970 / 4983 = 0.9974
+F1 (harmonic mean of precision and recall): 0.6668
+=====Dev Accuracy=====
+Accuracy: 1024 / 2000 = 0.5120
+Precision: 1017 / 1989 = 0.5113
+Recall: 1017 / 1021 = 0.9961
+F1 (harmonic mean of precision and recall): 0.6757
+Time for training and evaluation: 80.56 seconds
+=====Test Accuracy=====
+Accuracy: 12651 / 25000 = 0.5060
+Precision: 12473 / 24795 = 0.5030
+Recall: 12473 / 12500 = 0.9978
+F1 (harmonic mean of precision and recall): 0.6689
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=25, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5571 / 10000 = 0.5571
+Precision: 4866 / 9178 = 0.5302
+Recall: 4866 / 4983 = 0.9765
+F1 (harmonic mean of precision and recall): 0.6872
+=====Dev Accuracy=====
+Accuracy: 1122 / 2000 = 0.5610
+Precision: 990 / 1837 = 0.5389
+Recall: 990 / 1021 = 0.9696
+F1 (harmonic mean of precision and recall): 0.6928
+Time for training and evaluation: 81.02 seconds
+=====Test Accuracy=====
+Accuracy: 13960 / 25000 = 0.5584
+Precision: 12142 / 22824 = 0.5320
+Recall: 12142 / 12500 = 0.9714
+F1 (harmonic mean of precision and recall): 0.6875
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=25, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5419 / 10000 = 0.5419
+Precision: 434 / 466 = 0.9313
+Recall: 434 / 4983 = 0.0871
+F1 (harmonic mean of precision and recall): 0.1593
+=====Dev Accuracy=====
+Accuracy: 1054 / 2000 = 0.5270
+Precision: 83 / 91 = 0.9121
+Recall: 83 / 1021 = 0.0813
+F1 (harmonic mean of precision and recall): 0.1493
+Time for training and evaluation: 81.76 seconds
+=====Test Accuracy=====
+Accuracy: 13521 / 25000 = 0.5408
+Precision: 1109 / 1197 = 0.9265
+Recall: 1109 / 12500 = 0.0887
+F1 (harmonic mean of precision and recall): 0.1619
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=25, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6911 / 10000 = 0.6911
+Precision: 2890 / 3886 = 0.7437
+Recall: 2890 / 4983 = 0.5800
+F1 (harmonic mean of precision and recall): 0.6517
+=====Dev Accuracy=====
+Accuracy: 1346 / 2000 = 0.6730
+Precision: 571 / 775 = 0.7368
+Recall: 571 / 1021 = 0.5593
+F1 (harmonic mean of precision and recall): 0.6359
+Time for training and evaluation: 81.30 seconds
+=====Test Accuracy=====
+Accuracy: 17113 / 25000 = 0.6845
+Precision: 7009 / 9405 = 0.7452
+Recall: 7009 / 12500 = 0.5607
+F1 (harmonic mean of precision and recall): 0.6399
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=25, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6181 / 10000 = 0.6181
+Precision: 1390 / 1616 = 0.8601
+Recall: 1390 / 4983 = 0.2789
+F1 (harmonic mean of precision and recall): 0.4213
+=====Dev Accuracy=====
+Accuracy: 1203 / 2000 = 0.6015
+Precision: 282 / 340 = 0.8294
+Recall: 282 / 1021 = 0.2762
+F1 (harmonic mean of precision and recall): 0.4144
+Time for training and evaluation: 80.94 seconds
+=====Test Accuracy=====
+Accuracy: 15333 / 25000 = 0.6133
+Precision: 3393 / 3953 = 0.8583
+Recall: 3393 / 12500 = 0.2714
+F1 (harmonic mean of precision and recall): 0.4124
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=25, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5317 / 10000 = 0.5317
+Precision: 326 / 352 = 0.9261
+Recall: 326 / 4983 = 0.0654
+F1 (harmonic mean of precision and recall): 0.1222
+=====Dev Accuracy=====
+Accuracy: 1030 / 2000 = 0.5150
+Precision: 58 / 65 = 0.8923
+Recall: 58 / 1021 = 0.0568
+F1 (harmonic mean of precision and recall): 0.1068
+Time for training and evaluation: 81.39 seconds
+=====Test Accuracy=====
+Accuracy: 13280 / 25000 = 0.5312
+Precision: 844 / 908 = 0.9295
+Recall: 844 / 12500 = 0.0675
+F1 (harmonic mean of precision and recall): 0.1259
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=25, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4983 / 10000 = 0.4983
+Precision: 4983 / 10000 = 0.4983
+Recall: 4983 / 4983 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 1021 / 2000 = 0.5105
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6759
+Time for training and evaluation: 81.14 seconds
+=====Test Accuracy=====
+Accuracy: 12501 / 25000 = 0.5000
+Precision: 12500 / 24999 = 0.5000
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6667
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=25, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5009 / 10000 = 0.5009
+Precision: 4972 / 9952 = 0.4996
+Recall: 4972 / 4983 = 0.9978
+F1 (harmonic mean of precision and recall): 0.6658
+=====Dev Accuracy=====
+Accuracy: 1023 / 2000 = 0.5115
+Precision: 1019 / 1994 = 0.5110
+Recall: 1019 / 1021 = 0.9980
+F1 (harmonic mean of precision and recall): 0.6760
+Time for training and evaluation: 80.43 seconds
+=====Test Accuracy=====
+Accuracy: 12596 / 25000 = 0.5038
+Precision: 12481 / 24866 = 0.5019
+Recall: 12481 / 12500 = 0.9985
+F1 (harmonic mean of precision and recall): 0.6680
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=25, epochs=4, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5285 / 10000 = 0.5285
+Precision: 291 / 314 = 0.9268
+Recall: 291 / 4983 = 0.0584
+F1 (harmonic mean of precision and recall): 0.1099
+=====Dev Accuracy=====
+Accuracy: 1017 / 2000 = 0.5085
+Precision: 45 / 52 = 0.8654
+Recall: 45 / 1021 = 0.0441
+F1 (harmonic mean of precision and recall): 0.0839
+Time for training and evaluation: 80.88 seconds
+=====Test Accuracy=====
+Accuracy: 13223 / 25000 = 0.5289
+Precision: 783 / 843 = 0.9288
+Recall: 783 / 12500 = 0.0626
+F1 (harmonic mean of precision and recall): 0.1174
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=5, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7456 / 10000 = 0.7456
+Precision: 3791 / 5143 = 0.7371
+Recall: 3791 / 4983 = 0.7608
+F1 (harmonic mean of precision and recall): 0.7488
+=====Dev Accuracy=====
+Accuracy: 1470 / 2000 = 0.7350
+Precision: 757 / 1023 = 0.7400
+Recall: 757 / 1021 = 0.7414
+F1 (harmonic mean of precision and recall): 0.7407
+Time for training and evaluation: 94.28 seconds
+=====Test Accuracy=====
+Accuracy: 18668 / 25000 = 0.7467
+Precision: 9342 / 12516 = 0.7464
+Recall: 9342 / 12500 = 0.7474
+F1 (harmonic mean of precision and recall): 0.7469
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=5, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7357 / 10000 = 0.7357
+Precision: 3022 / 3704 = 0.8159
+Recall: 3022 / 4983 = 0.6065
+F1 (harmonic mean of precision and recall): 0.6958
+=====Dev Accuracy=====
+Accuracy: 1434 / 2000 = 0.7170
+Precision: 601 / 747 = 0.8046
+Recall: 601 / 1021 = 0.5886
+F1 (harmonic mean of precision and recall): 0.6799
+Time for training and evaluation: 94.69 seconds
+=====Test Accuracy=====
+Accuracy: 18236 / 25000 = 0.7294
+Precision: 7371 / 9006 = 0.8185
+Recall: 7371 / 12500 = 0.5897
+F1 (harmonic mean of precision and recall): 0.6855
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=5, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5236 / 10000 = 0.5236
+Precision: 4960 / 9701 = 0.5113
+Recall: 4960 / 4983 = 0.9954
+F1 (harmonic mean of precision and recall): 0.6756
+=====Dev Accuracy=====
+Accuracy: 1056 / 2000 = 0.5280
+Precision: 1013 / 1949 = 0.5198
+Recall: 1013 / 1021 = 0.9922
+F1 (harmonic mean of precision and recall): 0.6822
+Time for training and evaluation: 94.38 seconds
+=====Test Accuracy=====
+Accuracy: 13143 / 25000 = 0.5257
+Precision: 12423 / 24203 = 0.5133
+Recall: 12423 / 12500 = 0.9938
+F1 (harmonic mean of precision and recall): 0.6769
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=5, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7482 / 10000 = 0.7482
+Precision: 3708 / 4951 = 0.7489
+Recall: 3708 / 4983 = 0.7441
+F1 (harmonic mean of precision and recall): 0.7465
+=====Dev Accuracy=====
+Accuracy: 1482 / 2000 = 0.7410
+Precision: 749 / 995 = 0.7528
+Recall: 749 / 1021 = 0.7336
+F1 (harmonic mean of precision and recall): 0.7431
+Time for training and evaluation: 98.79 seconds
+=====Test Accuracy=====
+Accuracy: 18643 / 25000 = 0.7457
+Precision: 9060 / 11977 = 0.7564
+Recall: 9060 / 12500 = 0.7248
+F1 (harmonic mean of precision and recall): 0.7403
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=5, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5316 / 10000 = 0.5316
+Precision: 4948 / 9597 = 0.5156
+Recall: 4948 / 4983 = 0.9930
+F1 (harmonic mean of precision and recall): 0.6787
+=====Dev Accuracy=====
+Accuracy: 1080 / 2000 = 0.5400
+Precision: 1013 / 1925 = 0.5262
+Recall: 1013 / 1021 = 0.9922
+F1 (harmonic mean of precision and recall): 0.6877
+Time for training and evaluation: 95.48 seconds
+=====Test Accuracy=====
+Accuracy: 13353 / 25000 = 0.5341
+Precision: 12400 / 23947 = 0.5178
+Recall: 12400 / 12500 = 0.9920
+F1 (harmonic mean of precision and recall): 0.6804
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=5, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5614 / 10000 = 0.5614
+Precision: 641 / 685 = 0.9358
+Recall: 641 / 4983 = 0.1286
+F1 (harmonic mean of precision and recall): 0.2262
+=====Dev Accuracy=====
+Accuracy: 1089 / 2000 = 0.5445
+Precision: 122 / 134 = 0.9104
+Recall: 122 / 1021 = 0.1195
+F1 (harmonic mean of precision and recall): 0.2113
+Time for training and evaluation: 93.60 seconds
+=====Test Accuracy=====
+Accuracy: 13998 / 25000 = 0.5599
+Precision: 1597 / 1696 = 0.9416
+Recall: 1597 / 12500 = 0.1278
+F1 (harmonic mean of precision and recall): 0.2250
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=5, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7494 / 10000 = 0.7494
+Precision: 3736 / 4995 = 0.7479
+Recall: 3736 / 4983 = 0.7497
+F1 (harmonic mean of precision and recall): 0.7488
+=====Dev Accuracy=====
+Accuracy: 1487 / 2000 = 0.7435
+Precision: 759 / 1010 = 0.7515
+Recall: 759 / 1021 = 0.7434
+F1 (harmonic mean of precision and recall): 0.7474
+Time for training and evaluation: 95.10 seconds
+=====Test Accuracy=====
+Accuracy: 18682 / 25000 = 0.7473
+Precision: 9133 / 12084 = 0.7558
+Recall: 9133 / 12500 = 0.7306
+F1 (harmonic mean of precision and recall): 0.7430
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=5, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7410 / 10000 = 0.7410
+Precision: 4100 / 5807 = 0.7060
+Recall: 4100 / 4983 = 0.8228
+F1 (harmonic mean of precision and recall): 0.7600
+=====Dev Accuracy=====
+Accuracy: 1479 / 2000 = 0.7395
+Precision: 837 / 1174 = 0.7129
+Recall: 837 / 1021 = 0.8198
+F1 (harmonic mean of precision and recall): 0.7626
+Time for training and evaluation: 94.25 seconds
+=====Test Accuracy=====
+Accuracy: 18414 / 25000 = 0.7366
+Precision: 10002 / 14090 = 0.7099
+Recall: 10002 / 12500 = 0.8002
+F1 (harmonic mean of precision and recall): 0.7523
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=10, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6968 / 10000 = 0.6968
+Precision: 4555 / 7159 = 0.6363
+Recall: 4555 / 4983 = 0.9141
+F1 (harmonic mean of precision and recall): 0.7503
+=====Dev Accuracy=====
+Accuracy: 1416 / 2000 = 0.7080
+Precision: 925 / 1413 = 0.6546
+Recall: 925 / 1021 = 0.9060
+F1 (harmonic mean of precision and recall): 0.7601
+Time for training and evaluation: 94.22 seconds
+=====Test Accuracy=====
+Accuracy: 17272 / 25000 = 0.6909
+Precision: 11164 / 17556 = 0.6359
+Recall: 11164 / 12500 = 0.8931
+F1 (harmonic mean of precision and recall): 0.7429
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=10, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6259 / 10000 = 0.6259
+Precision: 4794 / 8346 = 0.5744
+Recall: 4794 / 4983 = 0.9621
+F1 (harmonic mean of precision and recall): 0.7193
+=====Dev Accuracy=====
+Accuracy: 1256 / 2000 = 0.6280
+Precision: 971 / 1665 = 0.5832
+Recall: 971 / 1021 = 0.9510
+F1 (harmonic mean of precision and recall): 0.7230
+Time for training and evaluation: 94.05 seconds
+=====Test Accuracy=====
+Accuracy: 15595 / 25000 = 0.6238
+Precision: 11897 / 20699 = 0.5748
+Recall: 11897 / 12500 = 0.9518
+F1 (harmonic mean of precision and recall): 0.7167
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=10, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7403 / 10000 = 0.7403
+Precision: 3927 / 5468 = 0.7182
+Recall: 3927 / 4983 = 0.7881
+F1 (harmonic mean of precision and recall): 0.7515
+=====Dev Accuracy=====
+Accuracy: 1485 / 2000 = 0.7425
+Precision: 810 / 1114 = 0.7271
+Recall: 810 / 1021 = 0.7933
+F1 (harmonic mean of precision and recall): 0.7588
+Time for training and evaluation: 94.98 seconds
+=====Test Accuracy=====
+Accuracy: 18474 / 25000 = 0.7390
+Precision: 9606 / 13238 = 0.7256
+Recall: 9606 / 12500 = 0.7685
+F1 (harmonic mean of precision and recall): 0.7464
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=10, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6066 / 10000 = 0.6066
+Precision: 1156 / 1263 = 0.9153
+Recall: 1156 / 4983 = 0.2320
+F1 (harmonic mean of precision and recall): 0.3702
+=====Dev Accuracy=====
+Accuracy: 1189 / 2000 = 0.5945
+Precision: 233 / 256 = 0.9102
+Recall: 233 / 1021 = 0.2282
+F1 (harmonic mean of precision and recall): 0.3649
+Time for training and evaluation: 94.15 seconds
+=====Test Accuracy=====
+Accuracy: 15127 / 25000 = 0.6051
+Precision: 2892 / 3157 = 0.9161
+Recall: 2892 / 12500 = 0.2314
+F1 (harmonic mean of precision and recall): 0.3694
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=10, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5497 / 10000 = 0.5497
+Precision: 4929 / 9378 = 0.5256
+Recall: 4929 / 4983 = 0.9892
+F1 (harmonic mean of precision and recall): 0.6864
+=====Dev Accuracy=====
+Accuracy: 1102 / 2000 = 0.5510
+Precision: 1003 / 1883 = 0.5327
+Recall: 1003 / 1021 = 0.9824
+F1 (harmonic mean of precision and recall): 0.6908
+Time for training and evaluation: 94.37 seconds
+=====Test Accuracy=====
+Accuracy: 13785 / 25000 = 0.5514
+Precision: 12318 / 23351 = 0.5275
+Recall: 12318 / 12500 = 0.9854
+F1 (harmonic mean of precision and recall): 0.6872
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=10, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6943 / 10000 = 0.6943
+Precision: 2312 / 2698 = 0.8569
+Recall: 2312 / 4983 = 0.4640
+F1 (harmonic mean of precision and recall): 0.6020
+=====Dev Accuracy=====
+Accuracy: 1343 / 2000 = 0.6715
+Precision: 457 / 550 = 0.8309
+Recall: 457 / 1021 = 0.4476
+F1 (harmonic mean of precision and recall): 0.5818
+Time for training and evaluation: 95.95 seconds
+=====Test Accuracy=====
+Accuracy: 17294 / 25000 = 0.6918
+Precision: 5729 / 6664 = 0.8597
+Recall: 5729 / 12500 = 0.4583
+F1 (harmonic mean of precision and recall): 0.5979
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=10, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6682 / 10000 = 0.6682
+Precision: 4652 / 7639 = 0.6090
+Recall: 4652 / 4983 = 0.9336
+F1 (harmonic mean of precision and recall): 0.7371
+=====Dev Accuracy=====
+Accuracy: 1364 / 2000 = 0.6820
+Precision: 944 / 1503 = 0.6281
+Recall: 944 / 1021 = 0.9246
+F1 (harmonic mean of precision and recall): 0.7480
+Time for training and evaluation: 95.06 seconds
+=====Test Accuracy=====
+Accuracy: 16651 / 25000 = 0.6660
+Precision: 11482 / 18813 = 0.6103
+Recall: 11482 / 12500 = 0.9186
+F1 (harmonic mean of precision and recall): 0.7334
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=10, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6492 / 10000 = 0.6492
+Precision: 4747 / 8019 = 0.5920
+Recall: 4747 / 4983 = 0.9526
+F1 (harmonic mean of precision and recall): 0.7302
+=====Dev Accuracy=====
+Accuracy: 1305 / 2000 = 0.6525
+Precision: 962 / 1598 = 0.6020
+Recall: 962 / 1021 = 0.9422
+F1 (harmonic mean of precision and recall): 0.7346
+Time for training and evaluation: 93.83 seconds
+=====Test Accuracy=====
+Accuracy: 16173 / 25000 = 0.6469
+Precision: 11756 / 19839 = 0.5926
+Recall: 11756 / 12500 = 0.9405
+F1 (harmonic mean of precision and recall): 0.7270
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=15, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5771 / 10000 = 0.5771
+Precision: 822 / 890 = 0.9236
+Recall: 822 / 4983 = 0.1650
+F1 (harmonic mean of precision and recall): 0.2799
+=====Dev Accuracy=====
+Accuracy: 1123 / 2000 = 0.5615
+Precision: 159 / 174 = 0.9138
+Recall: 159 / 1021 = 0.1557
+F1 (harmonic mean of precision and recall): 0.2661
+Time for training and evaluation: 93.69 seconds
+=====Test Accuracy=====
+Accuracy: 14405 / 25000 = 0.5762
+Precision: 2067 / 2229 = 0.9273
+Recall: 2067 / 12500 = 0.1654
+F1 (harmonic mean of precision and recall): 0.2807
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=15, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6389 / 10000 = 0.6389
+Precision: 1588 / 1804 = 0.8803
+Recall: 1588 / 4983 = 0.3187
+F1 (harmonic mean of precision and recall): 0.4680
+=====Dev Accuracy=====
+Accuracy: 1248 / 2000 = 0.6240
+Precision: 324 / 379 = 0.8549
+Recall: 324 / 1021 = 0.3173
+F1 (harmonic mean of precision and recall): 0.4629
+Time for training and evaluation: 93.66 seconds
+=====Test Accuracy=====
+Accuracy: 15972 / 25000 = 0.6389
+Precision: 4010 / 4548 = 0.8817
+Recall: 4010 / 12500 = 0.3208
+F1 (harmonic mean of precision and recall): 0.4704
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=15, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5095 / 10000 = 0.5095
+Precision: 4962 / 9846 = 0.5040
+Recall: 4962 / 4983 = 0.9958
+F1 (harmonic mean of precision and recall): 0.6692
+=====Dev Accuracy=====
+Accuracy: 1039 / 2000 = 0.5195
+Precision: 1016 / 1972 = 0.5152
+Recall: 1016 / 1021 = 0.9951
+F1 (harmonic mean of precision and recall): 0.6789
+Time for training and evaluation: 94.42 seconds
+=====Test Accuracy=====
+Accuracy: 12808 / 25000 = 0.5123
+Precision: 12453 / 24598 = 0.5063
+Recall: 12453 / 12500 = 0.9962
+F1 (harmonic mean of precision and recall): 0.6714
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=15, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7112 / 10000 = 0.7112
+Precision: 4306 / 6517 = 0.6607
+Recall: 4306 / 4983 = 0.8641
+F1 (harmonic mean of precision and recall): 0.7489
+=====Dev Accuracy=====
+Accuracy: 1437 / 2000 = 0.7185
+Precision: 885 / 1312 = 0.6745
+Recall: 885 / 1021 = 0.8668
+F1 (harmonic mean of precision and recall): 0.7587
+Time for training and evaluation: 94.04 seconds
+=====Test Accuracy=====
+Accuracy: 17672 / 25000 = 0.7069
+Precision: 10611 / 16050 = 0.6611
+Recall: 10611 / 12500 = 0.8489
+F1 (harmonic mean of precision and recall): 0.7433
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=15, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7371 / 10000 = 0.7371
+Precision: 3541 / 4728 = 0.7489
+Recall: 3541 / 4983 = 0.7106
+F1 (harmonic mean of precision and recall): 0.7293
+=====Dev Accuracy=====
+Accuracy: 1446 / 2000 = 0.7230
+Precision: 716 / 965 = 0.7420
+Recall: 716 / 1021 = 0.7013
+F1 (harmonic mean of precision and recall): 0.7210
+Time for training and evaluation: 93.60 seconds
+=====Test Accuracy=====
+Accuracy: 18300 / 25000 = 0.7320
+Precision: 8632 / 11464 = 0.7530
+Recall: 8632 / 12500 = 0.6906
+F1 (harmonic mean of precision and recall): 0.7204
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=15, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6742 / 10000 = 0.6742
+Precision: 2080 / 2435 = 0.8542
+Recall: 2080 / 4983 = 0.4174
+F1 (harmonic mean of precision and recall): 0.5608
+=====Dev Accuracy=====
+Accuracy: 1310 / 2000 = 0.6550
+Precision: 410 / 489 = 0.8384
+Recall: 410 / 1021 = 0.4016
+F1 (harmonic mean of precision and recall): 0.5430
+Time for training and evaluation: 93.43 seconds
+=====Test Accuracy=====
+Accuracy: 16751 / 25000 = 0.6700
+Precision: 5113 / 5975 = 0.8557
+Recall: 5113 / 12500 = 0.4090
+F1 (harmonic mean of precision and recall): 0.5535
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=15, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7308 / 10000 = 0.7308
+Precision: 3227 / 4163 = 0.7752
+Recall: 3227 / 4983 = 0.6476
+F1 (harmonic mean of precision and recall): 0.7057
+=====Dev Accuracy=====
+Accuracy: 1435 / 2000 = 0.7175
+Precision: 647 / 838 = 0.7721
+Recall: 647 / 1021 = 0.6337
+F1 (harmonic mean of precision and recall): 0.6961
+Time for training and evaluation: 93.79 seconds
+=====Test Accuracy=====
+Accuracy: 18148 / 25000 = 0.7259
+Precision: 7836 / 10024 = 0.7817
+Recall: 7836 / 12500 = 0.6269
+F1 (harmonic mean of precision and recall): 0.6958
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=15, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7403 / 10000 = 0.7403
+Precision: 3831 / 5276 = 0.7261
+Recall: 3831 / 4983 = 0.7688
+F1 (harmonic mean of precision and recall): 0.7469
+=====Dev Accuracy=====
+Accuracy: 1467 / 2000 = 0.7335
+Precision: 775 / 1062 = 0.7298
+Recall: 775 / 1021 = 0.7591
+F1 (harmonic mean of precision and recall): 0.7441
+Time for training and evaluation: 94.70 seconds
+=====Test Accuracy=====
+Accuracy: 18389 / 25000 = 0.7356
+Precision: 9303 / 12717 = 0.7315
+Recall: 9303 / 12500 = 0.7442
+F1 (harmonic mean of precision and recall): 0.7378
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=20, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5026 / 10000 = 0.5026
+Precision: 4971 / 9933 = 0.5005
+Recall: 4971 / 4983 = 0.9976
+F1 (harmonic mean of precision and recall): 0.6665
+=====Dev Accuracy=====
+Accuracy: 1024 / 2000 = 0.5120
+Precision: 1018 / 1991 = 0.5113
+Recall: 1018 / 1021 = 0.9971
+F1 (harmonic mean of precision and recall): 0.6760
+Time for training and evaluation: 94.25 seconds
+=====Test Accuracy=====
+Accuracy: 12644 / 25000 = 0.5058
+Precision: 12479 / 24814 = 0.5029
+Recall: 12479 / 12500 = 0.9983
+F1 (harmonic mean of precision and recall): 0.6689
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=20, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7106 / 10000 = 0.7106
+Precision: 2819 / 3549 = 0.7943
+Recall: 2819 / 4983 = 0.5657
+F1 (harmonic mean of precision and recall): 0.6608
+=====Dev Accuracy=====
+Accuracy: 1391 / 2000 = 0.6955
+Precision: 566 / 720 = 0.7861
+Recall: 566 / 1021 = 0.5544
+F1 (harmonic mean of precision and recall): 0.6502
+Time for training and evaluation: 93.99 seconds
+=====Test Accuracy=====
+Accuracy: 17631 / 25000 = 0.7052
+Precision: 6880 / 8629 = 0.7973
+Recall: 6880 / 12500 = 0.5504
+F1 (harmonic mean of precision and recall): 0.6512
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=20, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5035 / 10000 = 0.5035
+Precision: 4971 / 9924 = 0.5009
+Recall: 4971 / 4983 = 0.9976
+F1 (harmonic mean of precision and recall): 0.6669
+=====Dev Accuracy=====
+Accuracy: 1024 / 2000 = 0.5120
+Precision: 1018 / 1991 = 0.5113
+Recall: 1018 / 1021 = 0.9971
+F1 (harmonic mean of precision and recall): 0.6760
+Time for training and evaluation: 93.97 seconds
+=====Test Accuracy=====
+Accuracy: 12667 / 25000 = 0.5067
+Precision: 12478 / 24789 = 0.5034
+Recall: 12478 / 12500 = 0.9982
+F1 (harmonic mean of precision and recall): 0.6693
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=20, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5380 / 10000 = 0.5380
+Precision: 4941 / 9519 = 0.5191
+Recall: 4941 / 4983 = 0.9916
+F1 (harmonic mean of precision and recall): 0.6814
+=====Dev Accuracy=====
+Accuracy: 1087 / 2000 = 0.5435
+Precision: 1008 / 1908 = 0.5283
+Recall: 1008 / 1021 = 0.9873
+F1 (harmonic mean of precision and recall): 0.6883
+Time for training and evaluation: 93.55 seconds
+=====Test Accuracy=====
+Accuracy: 13462 / 25000 = 0.5385
+Precision: 12335 / 23708 = 0.5203
+Recall: 12335 / 12500 = 0.9868
+F1 (harmonic mean of precision and recall): 0.6813
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=20, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4984 / 10000 = 0.4984
+Precision: 4982 / 9997 = 0.4983
+Recall: 4982 / 4983 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1022 / 2000 = 0.5110
+Precision: 1021 / 1999 = 0.5108
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 93.95 seconds
+=====Test Accuracy=====
+Accuracy: 12506 / 25000 = 0.5002
+Precision: 12500 / 24994 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6668
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=20, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4986 / 10000 = 0.4986
+Precision: 4982 / 9995 = 0.4984
+Recall: 4982 / 4983 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1022 / 2000 = 0.5110
+Precision: 1021 / 1999 = 0.5108
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 95.24 seconds
+=====Test Accuracy=====
+Accuracy: 12506 / 25000 = 0.5002
+Precision: 12500 / 24994 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6668
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=20, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6380 / 10000 = 0.6380
+Precision: 1578 / 1793 = 0.8801
+Recall: 1578 / 4983 = 0.3167
+F1 (harmonic mean of precision and recall): 0.4658
+=====Dev Accuracy=====
+Accuracy: 1240 / 2000 = 0.6200
+Precision: 317 / 373 = 0.8499
+Recall: 317 / 1021 = 0.3105
+F1 (harmonic mean of precision and recall): 0.4548
+Time for training and evaluation: 94.04 seconds
+=====Test Accuracy=====
+Accuracy: 15838 / 25000 = 0.6335
+Precision: 3901 / 4464 = 0.8739
+Recall: 3901 / 12500 = 0.3121
+F1 (harmonic mean of precision and recall): 0.4599
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=20, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5990 / 10000 = 0.5990
+Precision: 1084 / 1195 = 0.9071
+Recall: 1084 / 4983 = 0.2175
+F1 (harmonic mean of precision and recall): 0.3509
+=====Dev Accuracy=====
+Accuracy: 1178 / 2000 = 0.5890
+Precision: 226 / 253 = 0.8933
+Recall: 226 / 1021 = 0.2214
+F1 (harmonic mean of precision and recall): 0.3548
+Time for training and evaluation: 93.52 seconds
+=====Test Accuracy=====
+Accuracy: 14943 / 25000 = 0.5977
+Precision: 2728 / 3013 = 0.9054
+Recall: 2728 / 12500 = 0.2182
+F1 (harmonic mean of precision and recall): 0.3517
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=25, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5117 / 10000 = 0.5117
+Precision: 4959 / 9818 = 0.5051
+Recall: 4959 / 4983 = 0.9952
+F1 (harmonic mean of precision and recall): 0.6701
+=====Dev Accuracy=====
+Accuracy: 1048 / 2000 = 0.5240
+Precision: 1015 / 1961 = 0.5176
+Recall: 1015 / 1021 = 0.9941
+F1 (harmonic mean of precision and recall): 0.6808
+Time for training and evaluation: 94.16 seconds
+=====Test Accuracy=====
+Accuracy: 12852 / 25000 = 0.5141
+Precision: 12440 / 24528 = 0.5072
+Recall: 12440 / 12500 = 0.9952
+F1 (harmonic mean of precision and recall): 0.6719
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=25, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5159 / 10000 = 0.5159
+Precision: 153 / 164 = 0.9329
+Recall: 153 / 4983 = 0.0307
+F1 (harmonic mean of precision and recall): 0.0595
+=====Dev Accuracy=====
+Accuracy: 1001 / 2000 = 0.5005
+Precision: 27 / 32 = 0.8438
+Recall: 27 / 1021 = 0.0264
+F1 (harmonic mean of precision and recall): 0.0513
+Time for training and evaluation: 93.57 seconds
+=====Test Accuracy=====
+Accuracy: 12886 / 25000 = 0.5154
+Precision: 407 / 428 = 0.9509
+Recall: 407 / 12500 = 0.0326
+F1 (harmonic mean of precision and recall): 0.0630
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=25, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4987 / 10000 = 0.4987
+Precision: 4982 / 9994 = 0.4985
+Recall: 4982 / 4983 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6653
+=====Dev Accuracy=====
+Accuracy: 1022 / 2000 = 0.5110
+Precision: 1021 / 1999 = 0.5108
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 95.38 seconds
+=====Test Accuracy=====
+Accuracy: 12510 / 25000 = 0.5004
+Precision: 12500 / 24990 = 0.5002
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6668
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=25, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7091 / 10000 = 0.7091
+Precision: 3805 / 5536 = 0.6873
+Recall: 3805 / 4983 = 0.7636
+F1 (harmonic mean of precision and recall): 0.7235
+=====Dev Accuracy=====
+Accuracy: 1418 / 2000 = 0.7090
+Precision: 783 / 1127 = 0.6948
+Recall: 783 / 1021 = 0.7669
+F1 (harmonic mean of precision and recall): 0.7291
+Time for training and evaluation: 94.14 seconds
+=====Test Accuracy=====
+Accuracy: 17640 / 25000 = 0.7056
+Precision: 9365 / 13590 = 0.6891
+Recall: 9365 / 12500 = 0.7492
+F1 (harmonic mean of precision and recall): 0.7179
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=25, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6290 / 10000 = 0.6290
+Precision: 4666 / 8059 = 0.5790
+Recall: 4666 / 4983 = 0.9364
+F1 (harmonic mean of precision and recall): 0.7155
+=====Dev Accuracy=====
+Accuracy: 1290 / 2000 = 0.6450
+Precision: 954 / 1597 = 0.5974
+Recall: 954 / 1021 = 0.9344
+F1 (harmonic mean of precision and recall): 0.7288
+Time for training and evaluation: 96.19 seconds
+=====Test Accuracy=====
+Accuracy: 15727 / 25000 = 0.6291
+Precision: 11567 / 19907 = 0.5811
+Recall: 11567 / 12500 = 0.9254
+F1 (harmonic mean of precision and recall): 0.7139
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=25, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5089 / 10000 = 0.5089
+Precision: 4962 / 9852 = 0.5037
+Recall: 4962 / 4983 = 0.9958
+F1 (harmonic mean of precision and recall): 0.6690
+=====Dev Accuracy=====
+Accuracy: 1039 / 2000 = 0.5195
+Precision: 1016 / 1972 = 0.5152
+Recall: 1016 / 1021 = 0.9951
+F1 (harmonic mean of precision and recall): 0.6789
+Time for training and evaluation: 94.96 seconds
+=====Test Accuracy=====
+Accuracy: 12794 / 25000 = 0.5118
+Precision: 12445 / 24596 = 0.5060
+Recall: 12445 / 12500 = 0.9956
+F1 (harmonic mean of precision and recall): 0.6710
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=25, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6831 / 10000 = 0.6831
+Precision: 2336 / 2858 = 0.8174
+Recall: 2336 / 4983 = 0.4688
+F1 (harmonic mean of precision and recall): 0.5958
+=====Dev Accuracy=====
+Accuracy: 1329 / 2000 = 0.6645
+Precision: 466 / 582 = 0.8007
+Recall: 466 / 1021 = 0.4564
+F1 (harmonic mean of precision and recall): 0.5814
+Time for training and evaluation: 94.63 seconds
+=====Test Accuracy=====
+Accuracy: 16853 / 25000 = 0.6741
+Precision: 5630 / 6907 = 0.8151
+Recall: 5630 / 12500 = 0.4504
+F1 (harmonic mean of precision and recall): 0.5802
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=25, epochs=5, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5325 / 10000 = 0.5325
+Precision: 334 / 360 = 0.9278
+Recall: 334 / 4983 = 0.0670
+F1 (harmonic mean of precision and recall): 0.1250
+=====Dev Accuracy=====
+Accuracy: 1028 / 2000 = 0.5140
+Precision: 56 / 63 = 0.8889
+Recall: 56 / 1021 = 0.0548
+F1 (harmonic mean of precision and recall): 0.1033
+Time for training and evaluation: 94.10 seconds
+=====Test Accuracy=====
+Accuracy: 13297 / 25000 = 0.5319
+Precision: 852 / 907 = 0.9394
+Recall: 852 / 12500 = 0.0682
+F1 (harmonic mean of precision and recall): 0.1271
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=5, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5348 / 10000 = 0.5348
+Precision: 4948 / 9565 = 0.5173
+Recall: 4948 / 4983 = 0.9930
+F1 (harmonic mean of precision and recall): 0.6802
+=====Dev Accuracy=====
+Accuracy: 1080 / 2000 = 0.5400
+Precision: 1011 / 1921 = 0.5263
+Recall: 1011 / 1021 = 0.9902
+F1 (harmonic mean of precision and recall): 0.6873
+Time for training and evaluation: 107.53 seconds
+=====Test Accuracy=====
+Accuracy: 13415 / 25000 = 0.5366
+Precision: 12390 / 23865 = 0.5192
+Recall: 12390 / 12500 = 0.9912
+F1 (harmonic mean of precision and recall): 0.6814
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=5, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7344 / 10000 = 0.7344
+Precision: 2977 / 3627 = 0.8208
+Recall: 2977 / 4983 = 0.5974
+F1 (harmonic mean of precision and recall): 0.6915
+=====Dev Accuracy=====
+Accuracy: 1426 / 2000 = 0.7130
+Precision: 590 / 733 = 0.8049
+Recall: 590 / 1021 = 0.5779
+F1 (harmonic mean of precision and recall): 0.6727
+Time for training and evaluation: 110.83 seconds
+=====Test Accuracy=====
+Accuracy: 18194 / 25000 = 0.7278
+Precision: 7266 / 8838 = 0.8221
+Recall: 7266 / 12500 = 0.5813
+F1 (harmonic mean of precision and recall): 0.6810
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=5, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7492 / 10000 = 0.7492
+Precision: 3814 / 5153 = 0.7402
+Recall: 3814 / 4983 = 0.7654
+F1 (harmonic mean of precision and recall): 0.7526
+=====Dev Accuracy=====
+Accuracy: 1481 / 2000 = 0.7405
+Precision: 774 / 1046 = 0.7400
+Recall: 774 / 1021 = 0.7581
+F1 (harmonic mean of precision and recall): 0.7489
+Time for training and evaluation: 106.70 seconds
+=====Test Accuracy=====
+Accuracy: 18649 / 25000 = 0.7460
+Precision: 9307 / 12465 = 0.7467
+Recall: 9307 / 12500 = 0.7446
+F1 (harmonic mean of precision and recall): 0.7456
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=5, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7496 / 10000 = 0.7496
+Precision: 3895 / 5311 = 0.7334
+Recall: 3895 / 4983 = 0.7817
+F1 (harmonic mean of precision and recall): 0.7568
+=====Dev Accuracy=====
+Accuracy: 1488 / 2000 = 0.7440
+Precision: 792 / 1075 = 0.7367
+Recall: 792 / 1021 = 0.7757
+F1 (harmonic mean of precision and recall): 0.7557
+Time for training and evaluation: 107.15 seconds
+=====Test Accuracy=====
+Accuracy: 18637 / 25000 = 0.7455
+Precision: 9489 / 12841 = 0.7390
+Recall: 9489 / 12500 = 0.7591
+F1 (harmonic mean of precision and recall): 0.7489
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=5, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6060 / 10000 = 0.6060
+Precision: 4853 / 8663 = 0.5602
+Recall: 4853 / 4983 = 0.9739
+F1 (harmonic mean of precision and recall): 0.7113
+=====Dev Accuracy=====
+Accuracy: 1212 / 2000 = 0.6060
+Precision: 985 / 1737 = 0.5671
+Recall: 985 / 1021 = 0.9647
+F1 (harmonic mean of precision and recall): 0.7143
+Time for training and evaluation: 107.87 seconds
+=====Test Accuracy=====
+Accuracy: 15089 / 25000 = 0.6036
+Precision: 12069 / 21549 = 0.5601
+Recall: 12069 / 12500 = 0.9655
+F1 (harmonic mean of precision and recall): 0.7089
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=5, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6630 / 10000 = 0.6630
+Precision: 4724 / 7835 = 0.6029
+Recall: 4724 / 4983 = 0.9480
+F1 (harmonic mean of precision and recall): 0.7371
+=====Dev Accuracy=====
+Accuracy: 1326 / 2000 = 0.6630
+Precision: 957 / 1567 = 0.6107
+Recall: 957 / 1021 = 0.9373
+F1 (harmonic mean of precision and recall): 0.7396
+Time for training and evaluation: 111.20 seconds
+=====Test Accuracy=====
+Accuracy: 16402 / 25000 = 0.6561
+Precision: 11676 / 19450 = 0.6003
+Recall: 11676 / 12500 = 0.9341
+F1 (harmonic mean of precision and recall): 0.7309
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=5, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7441 / 10000 = 0.7441
+Precision: 3342 / 4260 = 0.7845
+Recall: 3342 / 4983 = 0.6707
+F1 (harmonic mean of precision and recall): 0.7231
+=====Dev Accuracy=====
+Accuracy: 1454 / 2000 = 0.7270
+Precision: 662 / 849 = 0.7797
+Recall: 662 / 1021 = 0.6484
+F1 (harmonic mean of precision and recall): 0.7080
+Time for training and evaluation: 106.96 seconds
+=====Test Accuracy=====
+Accuracy: 18509 / 25000 = 0.7404
+Precision: 8145 / 10281 = 0.7922
+Recall: 8145 / 12500 = 0.6516
+F1 (harmonic mean of precision and recall): 0.7151
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=5, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7293 / 10000 = 0.7293
+Precision: 2880 / 3484 = 0.8266
+Recall: 2880 / 4983 = 0.5780
+F1 (harmonic mean of precision and recall): 0.6803
+=====Dev Accuracy=====
+Accuracy: 1404 / 2000 = 0.7020
+Precision: 562 / 699 = 0.8040
+Recall: 562 / 1021 = 0.5504
+F1 (harmonic mean of precision and recall): 0.6535
+Time for training and evaluation: 106.68 seconds
+=====Test Accuracy=====
+Accuracy: 18119 / 25000 = 0.7248
+Precision: 7065 / 8511 = 0.8301
+Recall: 7065 / 12500 = 0.5652
+F1 (harmonic mean of precision and recall): 0.6725
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=10, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4987 / 10000 = 0.4987
+Precision: 4983 / 9996 = 0.4985
+Recall: 4983 / 4983 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6653
+=====Dev Accuracy=====
+Accuracy: 1022 / 2000 = 0.5110
+Precision: 1021 / 1999 = 0.5108
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 109.85 seconds
+=====Test Accuracy=====
+Accuracy: 12507 / 25000 = 0.5003
+Precision: 12500 / 24993 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6668
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=10, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7470 / 10000 = 0.7470
+Precision: 3814 / 5175 = 0.7370
+Recall: 3814 / 4983 = 0.7654
+F1 (harmonic mean of precision and recall): 0.7509
+=====Dev Accuracy=====
+Accuracy: 1481 / 2000 = 0.7405
+Precision: 771 / 1040 = 0.7413
+Recall: 771 / 1021 = 0.7551
+F1 (harmonic mean of precision and recall): 0.7482
+Time for training and evaluation: 107.02 seconds
+=====Test Accuracy=====
+Accuracy: 18622 / 25000 = 0.7449
+Precision: 9318 / 12514 = 0.7446
+Recall: 9318 / 12500 = 0.7454
+F1 (harmonic mean of precision and recall): 0.7450
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=10, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5184 / 10000 = 0.5184
+Precision: 4961 / 9755 = 0.5086
+Recall: 4961 / 4983 = 0.9956
+F1 (harmonic mean of precision and recall): 0.6732
+=====Dev Accuracy=====
+Accuracy: 1060 / 2000 = 0.5300
+Precision: 1016 / 1951 = 0.5208
+Recall: 1016 / 1021 = 0.9951
+F1 (harmonic mean of precision and recall): 0.6837
+Time for training and evaluation: 107.29 seconds
+=====Test Accuracy=====
+Accuracy: 13037 / 25000 = 0.5215
+Precision: 12436 / 24335 = 0.5110
+Recall: 12436 / 12500 = 0.9949
+F1 (harmonic mean of precision and recall): 0.6752
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=10, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6396 / 10000 = 0.6396
+Precision: 4782 / 8185 = 0.5842
+Recall: 4782 / 4983 = 0.9597
+F1 (harmonic mean of precision and recall): 0.7263
+=====Dev Accuracy=====
+Accuracy: 1275 / 2000 = 0.6375
+Precision: 972 / 1648 = 0.5898
+Recall: 972 / 1021 = 0.9520
+F1 (harmonic mean of precision and recall): 0.7284
+Time for training and evaluation: 107.14 seconds
+=====Test Accuracy=====
+Accuracy: 15846 / 25000 = 0.6338
+Precision: 11850 / 20354 = 0.5822
+Recall: 11850 / 12500 = 0.9480
+F1 (harmonic mean of precision and recall): 0.7214
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=10, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5061 / 10000 = 0.5061
+Precision: 4971 / 9898 = 0.5022
+Recall: 4971 / 4983 = 0.9976
+F1 (harmonic mean of precision and recall): 0.6681
+=====Dev Accuracy=====
+Accuracy: 1028 / 2000 = 0.5140
+Precision: 1017 / 1985 = 0.5123
+Recall: 1017 / 1021 = 0.9961
+F1 (harmonic mean of precision and recall): 0.6766
+Time for training and evaluation: 109.12 seconds
+=====Test Accuracy=====
+Accuracy: 12721 / 25000 = 0.5088
+Precision: 12470 / 24719 = 0.5045
+Recall: 12470 / 12500 = 0.9976
+F1 (harmonic mean of precision and recall): 0.6701
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=10, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7399 / 10000 = 0.7399
+Precision: 4109 / 5836 = 0.7041
+Recall: 4109 / 4983 = 0.8246
+F1 (harmonic mean of precision and recall): 0.7596
+=====Dev Accuracy=====
+Accuracy: 1487 / 2000 = 0.7435
+Precision: 843 / 1178 = 0.7156
+Recall: 843 / 1021 = 0.8257
+F1 (harmonic mean of precision and recall): 0.7667
+Time for training and evaluation: 108.42 seconds
+=====Test Accuracy=====
+Accuracy: 18410 / 25000 = 0.7364
+Precision: 10044 / 14178 = 0.7084
+Recall: 10044 / 12500 = 0.8035
+F1 (harmonic mean of precision and recall): 0.7530
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=10, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5062 / 10000 = 0.5062
+Precision: 4972 / 9899 = 0.5023
+Recall: 4972 / 4983 = 0.9978
+F1 (harmonic mean of precision and recall): 0.6682
+=====Dev Accuracy=====
+Accuracy: 1030 / 2000 = 0.5150
+Precision: 1017 / 1983 = 0.5129
+Recall: 1017 / 1021 = 0.9961
+F1 (harmonic mean of precision and recall): 0.6771
+Time for training and evaluation: 107.66 seconds
+=====Test Accuracy=====
+Accuracy: 12730 / 25000 = 0.5092
+Precision: 12470 / 24710 = 0.5047
+Recall: 12470 / 12500 = 0.9976
+F1 (harmonic mean of precision and recall): 0.6702
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=10, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5513 / 10000 = 0.5513
+Precision: 527 / 558 = 0.9444
+Recall: 527 / 4983 = 0.1058
+F1 (harmonic mean of precision and recall): 0.1902
+=====Dev Accuracy=====
+Accuracy: 1074 / 2000 = 0.5370
+Precision: 102 / 109 = 0.9358
+Recall: 102 / 1021 = 0.0999
+F1 (harmonic mean of precision and recall): 0.1805
+Time for training and evaluation: 106.93 seconds
+=====Test Accuracy=====
+Accuracy: 13733 / 25000 = 0.5493
+Precision: 1305 / 1377 = 0.9477
+Recall: 1305 / 12500 = 0.1044
+F1 (harmonic mean of precision and recall): 0.1881
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=15, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7339 / 10000 = 0.7339
+Precision: 3975 / 5628 = 0.7063
+Recall: 3975 / 4983 = 0.7977
+F1 (harmonic mean of precision and recall): 0.7492
+=====Dev Accuracy=====
+Accuracy: 1470 / 2000 = 0.7350
+Precision: 813 / 1135 = 0.7163
+Recall: 813 / 1021 = 0.7963
+F1 (harmonic mean of precision and recall): 0.7542
+Time for training and evaluation: 107.46 seconds
+=====Test Accuracy=====
+Accuracy: 18392 / 25000 = 0.7357
+Precision: 9787 / 13682 = 0.7153
+Recall: 9787 / 12500 = 0.7830
+F1 (harmonic mean of precision and recall): 0.7476
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=15, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6783 / 10000 = 0.6783
+Precision: 4596 / 7426 = 0.6189
+Recall: 4596 / 4983 = 0.9223
+F1 (harmonic mean of precision and recall): 0.7408
+=====Dev Accuracy=====
+Accuracy: 1390 / 2000 = 0.6950
+Precision: 933 / 1455 = 0.6412
+Recall: 933 / 1021 = 0.9138
+F1 (harmonic mean of precision and recall): 0.7536
+Time for training and evaluation: 107.66 seconds
+=====Test Accuracy=====
+Accuracy: 16875 / 25000 = 0.6750
+Precision: 11303 / 18231 = 0.6200
+Recall: 11303 / 12500 = 0.9042
+F1 (harmonic mean of precision and recall): 0.7356
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=15, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7440 / 10000 = 0.7440
+Precision: 3685 / 4947 = 0.7449
+Recall: 3685 / 4983 = 0.7395
+F1 (harmonic mean of precision and recall): 0.7422
+=====Dev Accuracy=====
+Accuracy: 1457 / 2000 = 0.7285
+Precision: 727 / 976 = 0.7449
+Recall: 727 / 1021 = 0.7120
+F1 (harmonic mean of precision and recall): 0.7281
+Time for training and evaluation: 107.75 seconds
+=====Test Accuracy=====
+Accuracy: 18502 / 25000 = 0.7401
+Precision: 8950 / 11898 = 0.7522
+Recall: 8950 / 12500 = 0.7160
+F1 (harmonic mean of precision and recall): 0.7337
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=15, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7170 / 10000 = 0.7170
+Precision: 4329 / 6505 = 0.6655
+Recall: 4329 / 4983 = 0.8688
+F1 (harmonic mean of precision and recall): 0.7537
+=====Dev Accuracy=====
+Accuracy: 1444 / 2000 = 0.7220
+Precision: 887 / 1309 = 0.6776
+Recall: 887 / 1021 = 0.8688
+F1 (harmonic mean of precision and recall): 0.7614
+Time for training and evaluation: 107.70 seconds
+=====Test Accuracy=====
+Accuracy: 17792 / 25000 = 0.7117
+Precision: 10610 / 15928 = 0.6661
+Recall: 10610 / 12500 = 0.8488
+F1 (harmonic mean of precision and recall): 0.7464
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=15, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7379 / 10000 = 0.7379
+Precision: 3948 / 5534 = 0.7134
+Recall: 3948 / 4983 = 0.7923
+F1 (harmonic mean of precision and recall): 0.7508
+=====Dev Accuracy=====
+Accuracy: 1474 / 2000 = 0.7370
+Precision: 810 / 1125 = 0.7200
+Recall: 810 / 1021 = 0.7933
+F1 (harmonic mean of precision and recall): 0.7549
+Time for training and evaluation: 107.48 seconds
+=====Test Accuracy=====
+Accuracy: 18404 / 25000 = 0.7362
+Precision: 9689 / 13474 = 0.7191
+Recall: 9689 / 12500 = 0.7751
+F1 (harmonic mean of precision and recall): 0.7461
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=15, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7426 / 10000 = 0.7426
+Precision: 3760 / 5111 = 0.7357
+Recall: 3760 / 4983 = 0.7546
+F1 (harmonic mean of precision and recall): 0.7450
+=====Dev Accuracy=====
+Accuracy: 1469 / 2000 = 0.7345
+Precision: 760 / 1030 = 0.7379
+Recall: 760 / 1021 = 0.7444
+F1 (harmonic mean of precision and recall): 0.7411
+Time for training and evaluation: 107.33 seconds
+=====Test Accuracy=====
+Accuracy: 18488 / 25000 = 0.7395
+Precision: 9184 / 12380 = 0.7418
+Recall: 9184 / 12500 = 0.7347
+F1 (harmonic mean of precision and recall): 0.7383
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=15, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5147 / 10000 = 0.5147
+Precision: 138 / 146 = 0.9452
+Recall: 138 / 4983 = 0.0277
+F1 (harmonic mean of precision and recall): 0.0538
+=====Dev Accuracy=====
+Accuracy: 998 / 2000 = 0.4990
+Precision: 23 / 27 = 0.8519
+Recall: 23 / 1021 = 0.0225
+F1 (harmonic mean of precision and recall): 0.0439
+Time for training and evaluation: 106.71 seconds
+=====Test Accuracy=====
+Accuracy: 12833 / 25000 = 0.5133
+Precision: 347 / 361 = 0.9612
+Recall: 347 / 12500 = 0.0278
+F1 (harmonic mean of precision and recall): 0.0540
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=15, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5240 / 10000 = 0.5240
+Precision: 4954 / 9685 = 0.5115
+Recall: 4954 / 4983 = 0.9942
+F1 (harmonic mean of precision and recall): 0.6755
+=====Dev Accuracy=====
+Accuracy: 1067 / 2000 = 0.5335
+Precision: 1013 / 1938 = 0.5227
+Recall: 1013 / 1021 = 0.9922
+F1 (harmonic mean of precision and recall): 0.6847
+Time for training and evaluation: 107.36 seconds
+=====Test Accuracy=====
+Accuracy: 13184 / 25000 = 0.5274
+Precision: 12404 / 24124 = 0.5142
+Recall: 12404 / 12500 = 0.9923
+F1 (harmonic mean of precision and recall): 0.6774
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=20, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7331 / 10000 = 0.7331
+Precision: 3472 / 4630 = 0.7499
+Recall: 3472 / 4983 = 0.6968
+F1 (harmonic mean of precision and recall): 0.7224
+=====Dev Accuracy=====
+Accuracy: 1438 / 2000 = 0.7190
+Precision: 698 / 937 = 0.7449
+Recall: 698 / 1021 = 0.6836
+F1 (harmonic mean of precision and recall): 0.7130
+Time for training and evaluation: 107.08 seconds
+=====Test Accuracy=====
+Accuracy: 18229 / 25000 = 0.7292
+Precision: 8498 / 11267 = 0.7542
+Recall: 8498 / 12500 = 0.6798
+F1 (harmonic mean of precision and recall): 0.7151
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=20, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4987 / 10000 = 0.4987
+Precision: 4983 / 9996 = 0.4985
+Recall: 4983 / 4983 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6653
+=====Dev Accuracy=====
+Accuracy: 1022 / 2000 = 0.5110
+Precision: 1021 / 1999 = 0.5108
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 107.87 seconds
+=====Test Accuracy=====
+Accuracy: 12507 / 25000 = 0.5003
+Precision: 12500 / 24993 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6668
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=20, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5006 / 10000 = 0.5006
+Precision: 4977 / 9965 = 0.4994
+Recall: 4977 / 4983 = 0.9988
+F1 (harmonic mean of precision and recall): 0.6659
+=====Dev Accuracy=====
+Accuracy: 1023 / 2000 = 0.5115
+Precision: 1020 / 1996 = 0.5110
+Recall: 1020 / 1021 = 0.9990
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 109.65 seconds
+=====Test Accuracy=====
+Accuracy: 12577 / 25000 = 0.5031
+Precision: 12494 / 24911 = 0.5015
+Recall: 12494 / 12500 = 0.9995
+F1 (harmonic mean of precision and recall): 0.6679
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=20, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7160 / 10000 = 0.7160
+Precision: 4241 / 6339 = 0.6690
+Recall: 4241 / 4983 = 0.8511
+F1 (harmonic mean of precision and recall): 0.7492
+=====Dev Accuracy=====
+Accuracy: 1439 / 2000 = 0.7195
+Precision: 867 / 1274 = 0.6805
+Recall: 867 / 1021 = 0.8492
+F1 (harmonic mean of precision and recall): 0.7556
+Time for training and evaluation: 108.38 seconds
+=====Test Accuracy=====
+Accuracy: 17752 / 25000 = 0.7101
+Precision: 10405 / 15558 = 0.6688
+Recall: 10405 / 12500 = 0.8324
+F1 (harmonic mean of precision and recall): 0.7417
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=20, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7315 / 10000 = 0.7315
+Precision: 3429 / 4560 = 0.7520
+Recall: 3429 / 4983 = 0.6881
+F1 (harmonic mean of precision and recall): 0.7186
+=====Dev Accuracy=====
+Accuracy: 1438 / 2000 = 0.7190
+Precision: 692 / 925 = 0.7481
+Recall: 692 / 1021 = 0.6778
+F1 (harmonic mean of precision and recall): 0.7112
+Time for training and evaluation: 106.50 seconds
+=====Test Accuracy=====
+Accuracy: 18207 / 25000 = 0.7283
+Precision: 8405 / 11103 = 0.7570
+Recall: 8405 / 12500 = 0.6724
+F1 (harmonic mean of precision and recall): 0.7122
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=20, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6564 / 10000 = 0.6564
+Precision: 1790 / 2033 = 0.8805
+Recall: 1790 / 4983 = 0.3592
+F1 (harmonic mean of precision and recall): 0.5103
+=====Dev Accuracy=====
+Accuracy: 1271 / 2000 = 0.6355
+Precision: 353 / 414 = 0.8527
+Recall: 353 / 1021 = 0.3457
+F1 (harmonic mean of precision and recall): 0.4920
+Time for training and evaluation: 106.22 seconds
+=====Test Accuracy=====
+Accuracy: 16320 / 25000 = 0.6528
+Precision: 4439 / 5058 = 0.8776
+Recall: 4439 / 12500 = 0.3551
+F1 (harmonic mean of precision and recall): 0.5056
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=20, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6107 / 10000 = 0.6107
+Precision: 1220 / 1350 = 0.9037
+Recall: 1220 / 4983 = 0.2448
+F1 (harmonic mean of precision and recall): 0.3853
+=====Dev Accuracy=====
+Accuracy: 1205 / 2000 = 0.6025
+Precision: 254 / 282 = 0.9007
+Recall: 254 / 1021 = 0.2488
+F1 (harmonic mean of precision and recall): 0.3899
+Time for training and evaluation: 107.90 seconds
+=====Test Accuracy=====
+Accuracy: 15224 / 25000 = 0.6090
+Precision: 3046 / 3368 = 0.9044
+Recall: 3046 / 12500 = 0.2437
+F1 (harmonic mean of precision and recall): 0.3839
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=20, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7226 / 10000 = 0.7226
+Precision: 2939 / 3669 = 0.8010
+Recall: 2939 / 4983 = 0.5898
+F1 (harmonic mean of precision and recall): 0.6794
+=====Dev Accuracy=====
+Accuracy: 1399 / 2000 = 0.6995
+Precision: 578 / 736 = 0.7853
+Recall: 578 / 1021 = 0.5661
+F1 (harmonic mean of precision and recall): 0.6579
+Time for training and evaluation: 106.97 seconds
+=====Test Accuracy=====
+Accuracy: 17887 / 25000 = 0.7155
+Precision: 7131 / 8875 = 0.8035
+Recall: 7131 / 12500 = 0.5705
+F1 (harmonic mean of precision and recall): 0.6672
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=25, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7187 / 10000 = 0.7187
+Precision: 3437 / 4704 = 0.7307
+Recall: 3437 / 4983 = 0.6897
+F1 (harmonic mean of precision and recall): 0.7096
+=====Dev Accuracy=====
+Accuracy: 1424 / 2000 = 0.7120
+Precision: 702 / 959 = 0.7320
+Recall: 702 / 1021 = 0.6876
+F1 (harmonic mean of precision and recall): 0.7091
+Time for training and evaluation: 108.37 seconds
+=====Test Accuracy=====
+Accuracy: 17862 / 25000 = 0.7145
+Precision: 8448 / 11534 = 0.7324
+Recall: 8448 / 12500 = 0.6758
+F1 (harmonic mean of precision and recall): 0.7030
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=25, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5059 / 10000 = 0.5059
+Precision: 4969 / 9896 = 0.5021
+Recall: 4969 / 4983 = 0.9972
+F1 (harmonic mean of precision and recall): 0.6679
+=====Dev Accuracy=====
+Accuracy: 1027 / 2000 = 0.5135
+Precision: 1016 / 1984 = 0.5121
+Recall: 1016 / 1021 = 0.9951
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 108.07 seconds
+=====Test Accuracy=====
+Accuracy: 12716 / 25000 = 0.5086
+Precision: 12468 / 24720 = 0.5044
+Recall: 12468 / 12500 = 0.9974
+F1 (harmonic mean of precision and recall): 0.6700
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=25, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4992 / 10000 = 0.4992
+Precision: 4979 / 9983 = 0.4987
+Recall: 4979 / 4983 = 0.9992
+F1 (harmonic mean of precision and recall): 0.6654
+=====Dev Accuracy=====
+Accuracy: 1023 / 2000 = 0.5115
+Precision: 1021 / 1998 = 0.5110
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6764
+Time for training and evaluation: 107.83 seconds
+=====Test Accuracy=====
+Accuracy: 12535 / 25000 = 0.5014
+Precision: 12498 / 24961 = 0.5007
+Recall: 12498 / 12500 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6673
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=25, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4987 / 10000 = 0.4987
+Precision: 4982 / 9994 = 0.4985
+Recall: 4982 / 4983 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6653
+=====Dev Accuracy=====
+Accuracy: 1022 / 2000 = 0.5110
+Precision: 1021 / 1999 = 0.5108
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 106.97 seconds
+=====Test Accuracy=====
+Accuracy: 12507 / 25000 = 0.5003
+Precision: 12500 / 24993 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6668
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=25, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7260 / 10000 = 0.7260
+Precision: 3488 / 4733 = 0.7370
+Recall: 3488 / 4983 = 0.7000
+F1 (harmonic mean of precision and recall): 0.7180
+=====Dev Accuracy=====
+Accuracy: 1421 / 2000 = 0.7105
+Precision: 706 / 970 = 0.7278
+Recall: 706 / 1021 = 0.6915
+F1 (harmonic mean of precision and recall): 0.7092
+Time for training and evaluation: 107.00 seconds
+=====Test Accuracy=====
+Accuracy: 18069 / 25000 = 0.7228
+Precision: 8571 / 11573 = 0.7406
+Recall: 8571 / 12500 = 0.6857
+F1 (harmonic mean of precision and recall): 0.7121
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=25, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4999 / 10000 = 0.4999
+Precision: 4974 / 9966 = 0.4991
+Recall: 4974 / 4983 = 0.9982
+F1 (harmonic mean of precision and recall): 0.6655
+=====Dev Accuracy=====
+Accuracy: 1022 / 2000 = 0.5110
+Precision: 1020 / 1997 = 0.5108
+Recall: 1020 / 1021 = 0.9990
+F1 (harmonic mean of precision and recall): 0.6759
+Time for training and evaluation: 106.77 seconds
+=====Test Accuracy=====
+Accuracy: 12575 / 25000 = 0.5030
+Precision: 12492 / 24909 = 0.5015
+Recall: 12492 / 12500 = 0.9994
+F1 (harmonic mean of precision and recall): 0.6679
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=25, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7162 / 10000 = 0.7162
+Precision: 4026 / 5907 = 0.6816
+Recall: 4026 / 4983 = 0.8079
+F1 (harmonic mean of precision and recall): 0.7394
+=====Dev Accuracy=====
+Accuracy: 1444 / 2000 = 0.7220
+Precision: 824 / 1183 = 0.6965
+Recall: 824 / 1021 = 0.8071
+F1 (harmonic mean of precision and recall): 0.7477
+Time for training and evaluation: 107.66 seconds
+=====Test Accuracy=====
+Accuracy: 17879 / 25000 = 0.7152
+Precision: 9892 / 14405 = 0.6867
+Recall: 9892 / 12500 = 0.7914
+F1 (harmonic mean of precision and recall): 0.7353
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=25, epochs=6, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5598 / 10000 = 0.5598
+Precision: 623 / 665 = 0.9368
+Recall: 623 / 4983 = 0.1250
+F1 (harmonic mean of precision and recall): 0.2206
+=====Dev Accuracy=====
+Accuracy: 1087 / 2000 = 0.5435
+Precision: 119 / 130 = 0.9154
+Recall: 119 / 1021 = 0.1166
+F1 (harmonic mean of precision and recall): 0.2068
+Time for training and evaluation: 107.87 seconds
+=====Test Accuracy=====
+Accuracy: 13999 / 25000 = 0.5600
+Precision: 1610 / 1721 = 0.9355
+Recall: 1610 / 12500 = 0.1288
+F1 (harmonic mean of precision and recall): 0.2264
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=5, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7502 / 10000 = 0.7502
+Precision: 3945 / 5405 = 0.7299
+Recall: 3945 / 4983 = 0.7917
+F1 (harmonic mean of precision and recall): 0.7595
+=====Dev Accuracy=====
+Accuracy: 1484 / 2000 = 0.7420
+Precision: 801 / 1097 = 0.7302
+Recall: 801 / 1021 = 0.7845
+F1 (harmonic mean of precision and recall): 0.7564
+Time for training and evaluation: 120.74 seconds
+=====Test Accuracy=====
+Accuracy: 18619 / 25000 = 0.7448
+Precision: 9602 / 13085 = 0.7338
+Recall: 9602 / 12500 = 0.7682
+F1 (harmonic mean of precision and recall): 0.7506
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=5, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5210 / 10000 = 0.5210
+Precision: 4963 / 9733 = 0.5099
+Recall: 4963 / 4983 = 0.9960
+F1 (harmonic mean of precision and recall): 0.6745
+=====Dev Accuracy=====
+Accuracy: 1060 / 2000 = 0.5300
+Precision: 1016 / 1951 = 0.5208
+Recall: 1016 / 1021 = 0.9951
+F1 (harmonic mean of precision and recall): 0.6837
+Time for training and evaluation: 122.13 seconds
+=====Test Accuracy=====
+Accuracy: 13064 / 25000 = 0.5226
+Precision: 12431 / 24298 = 0.5116
+Recall: 12431 / 12500 = 0.9945
+F1 (harmonic mean of precision and recall): 0.6756
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=5, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7464 / 10000 = 0.7464
+Precision: 3503 / 4559 = 0.7684
+Recall: 3503 / 4983 = 0.7030
+F1 (harmonic mean of precision and recall): 0.7342
+=====Dev Accuracy=====
+Accuracy: 1461 / 2000 = 0.7305
+Precision: 701 / 920 = 0.7620
+Recall: 701 / 1021 = 0.6866
+F1 (harmonic mean of precision and recall): 0.7223
+Time for training and evaluation: 120.49 seconds
+=====Test Accuracy=====
+Accuracy: 18510 / 25000 = 0.7404
+Precision: 8505 / 11000 = 0.7732
+Recall: 8505 / 12500 = 0.6804
+F1 (harmonic mean of precision and recall): 0.7238
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=5, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5034 / 10000 = 0.5034
+Precision: 4976 / 9935 = 0.5009
+Recall: 4976 / 4983 = 0.9986
+F1 (harmonic mean of precision and recall): 0.6671
+=====Dev Accuracy=====
+Accuracy: 1026 / 2000 = 0.5130
+Precision: 1018 / 1989 = 0.5118
+Recall: 1018 / 1021 = 0.9971
+F1 (harmonic mean of precision and recall): 0.6764
+Time for training and evaluation: 125.17 seconds
+=====Test Accuracy=====
+Accuracy: 12672 / 25000 = 0.5069
+Precision: 12487 / 24802 = 0.5035
+Recall: 12487 / 12500 = 0.9990
+F1 (harmonic mean of precision and recall): 0.6695
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=5, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6983 / 10000 = 0.6983
+Precision: 4611 / 7256 = 0.6355
+Recall: 4611 / 4983 = 0.9253
+F1 (harmonic mean of precision and recall): 0.7535
+=====Dev Accuracy=====
+Accuracy: 1406 / 2000 = 0.7030
+Precision: 935 / 1443 = 0.6480
+Recall: 935 / 1021 = 0.9158
+F1 (harmonic mean of precision and recall): 0.7589
+Time for training and evaluation: 121.13 seconds
+=====Test Accuracy=====
+Accuracy: 17247 / 25000 = 0.6899
+Precision: 11316 / 17885 = 0.6327
+Recall: 11316 / 12500 = 0.9053
+F1 (harmonic mean of precision and recall): 0.7448
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=5, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5334 / 10000 = 0.5334
+Precision: 4948 / 9579 = 0.5165
+Recall: 4948 / 4983 = 0.9930
+F1 (harmonic mean of precision and recall): 0.6796
+=====Dev Accuracy=====
+Accuracy: 1074 / 2000 = 0.5370
+Precision: 1009 / 1923 = 0.5247
+Recall: 1009 / 1021 = 0.9882
+F1 (harmonic mean of precision and recall): 0.6855
+Time for training and evaluation: 120.14 seconds
+=====Test Accuracy=====
+Accuracy: 13404 / 25000 = 0.5362
+Precision: 12397 / 23890 = 0.5189
+Recall: 12397 / 12500 = 0.9918
+F1 (harmonic mean of precision and recall): 0.6813
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=5, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6006 / 10000 = 0.6006
+Precision: 4865 / 8741 = 0.5566
+Recall: 4865 / 4983 = 0.9763
+F1 (harmonic mean of precision and recall): 0.7090
+=====Dev Accuracy=====
+Accuracy: 1198 / 2000 = 0.5990
+Precision: 989 / 1759 = 0.5623
+Recall: 989 / 1021 = 0.9687
+F1 (harmonic mean of precision and recall): 0.7115
+Time for training and evaluation: 120.22 seconds
+=====Test Accuracy=====
+Accuracy: 14995 / 25000 = 0.5998
+Precision: 12103 / 21711 = 0.5575
+Recall: 12103 / 12500 = 0.9682
+F1 (harmonic mean of precision and recall): 0.7076
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=5, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7407 / 10000 = 0.7407
+Precision: 4175 / 5960 = 0.7005
+Recall: 4175 / 4983 = 0.8378
+F1 (harmonic mean of precision and recall): 0.7630
+=====Dev Accuracy=====
+Accuracy: 1488 / 2000 = 0.7440
+Precision: 856 / 1203 = 0.7116
+Recall: 856 / 1021 = 0.8384
+F1 (harmonic mean of precision and recall): 0.7698
+Time for training and evaluation: 119.67 seconds
+=====Test Accuracy=====
+Accuracy: 18407 / 25000 = 0.7363
+Precision: 10223 / 14539 = 0.7031
+Recall: 10223 / 12500 = 0.8178
+F1 (harmonic mean of precision and recall): 0.7562
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=10, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6614 / 10000 = 0.6614
+Precision: 1836 / 2075 = 0.8848
+Recall: 1836 / 4983 = 0.3685
+F1 (harmonic mean of precision and recall): 0.5203
+=====Dev Accuracy=====
+Accuracy: 1294 / 2000 = 0.6470
+Precision: 363 / 411 = 0.8832
+Recall: 363 / 1021 = 0.3555
+F1 (harmonic mean of precision and recall): 0.5070
+Time for training and evaluation: 120.29 seconds
+=====Test Accuracy=====
+Accuracy: 16474 / 25000 = 0.6590
+Precision: 4525 / 5076 = 0.8914
+Recall: 4525 / 12500 = 0.3620
+F1 (harmonic mean of precision and recall): 0.5149
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=10, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6256 / 10000 = 0.6256
+Precision: 4815 / 8391 = 0.5738
+Recall: 4815 / 4983 = 0.9663
+F1 (harmonic mean of precision and recall): 0.7201
+=====Dev Accuracy=====
+Accuracy: 1242 / 2000 = 0.6210
+Precision: 977 / 1691 = 0.5778
+Recall: 977 / 1021 = 0.9569
+F1 (harmonic mean of precision and recall): 0.7205
+Time for training and evaluation: 119.97 seconds
+=====Test Accuracy=====
+Accuracy: 15566 / 25000 = 0.6226
+Precision: 11941 / 20816 = 0.5736
+Recall: 11941 / 12500 = 0.9553
+F1 (harmonic mean of precision and recall): 0.7168
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=10, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7419 / 10000 = 0.7419
+Precision: 4105 / 5808 = 0.7068
+Recall: 4105 / 4983 = 0.8238
+F1 (harmonic mean of precision and recall): 0.7608
+=====Dev Accuracy=====
+Accuracy: 1482 / 2000 = 0.7410
+Precision: 839 / 1175 = 0.7140
+Recall: 839 / 1021 = 0.8217
+F1 (harmonic mean of precision and recall): 0.7641
+Time for training and evaluation: 120.20 seconds
+=====Test Accuracy=====
+Accuracy: 18454 / 25000 = 0.7382
+Precision: 10035 / 14116 = 0.7109
+Recall: 10035 / 12500 = 0.8028
+F1 (harmonic mean of precision and recall): 0.7541
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=10, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6567 / 10000 = 0.6567
+Precision: 1777 / 2004 = 0.8867
+Recall: 1777 / 4983 = 0.3566
+F1 (harmonic mean of precision and recall): 0.5087
+=====Dev Accuracy=====
+Accuracy: 1283 / 2000 = 0.6415
+Precision: 350 / 396 = 0.8838
+Recall: 350 / 1021 = 0.3428
+F1 (harmonic mean of precision and recall): 0.4940
+Time for training and evaluation: 120.36 seconds
+=====Test Accuracy=====
+Accuracy: 16389 / 25000 = 0.6556
+Precision: 4426 / 4963 = 0.8918
+Recall: 4426 / 12500 = 0.3541
+F1 (harmonic mean of precision and recall): 0.5069
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=10, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5027 / 10000 = 0.5027
+Precision: 4976 / 9942 = 0.5005
+Recall: 4976 / 4983 = 0.9986
+F1 (harmonic mean of precision and recall): 0.6668
+=====Dev Accuracy=====
+Accuracy: 1024 / 2000 = 0.5120
+Precision: 1019 / 1993 = 0.5113
+Recall: 1019 / 1021 = 0.9980
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 120.73 seconds
+=====Test Accuracy=====
+Accuracy: 12642 / 25000 = 0.5057
+Precision: 12488 / 24834 = 0.5029
+Recall: 12488 / 12500 = 0.9990
+F1 (harmonic mean of precision and recall): 0.6690
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=10, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6820 / 10000 = 0.6820
+Precision: 4652 / 7501 = 0.6202
+Recall: 4652 / 4983 = 0.9336
+F1 (harmonic mean of precision and recall): 0.7453
+=====Dev Accuracy=====
+Accuracy: 1388 / 2000 = 0.6940
+Precision: 943 / 1477 = 0.6385
+Recall: 943 / 1021 = 0.9236
+F1 (harmonic mean of precision and recall): 0.7550
+Time for training and evaluation: 119.51 seconds
+=====Test Accuracy=====
+Accuracy: 16943 / 25000 = 0.6777
+Precision: 11420 / 18397 = 0.6208
+Recall: 11420 / 12500 = 0.9136
+F1 (harmonic mean of precision and recall): 0.7392
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=10, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7241 / 10000 = 0.7241
+Precision: 4355 / 6486 = 0.6714
+Recall: 4355 / 4983 = 0.8740
+F1 (harmonic mean of precision and recall): 0.7594
+=====Dev Accuracy=====
+Accuracy: 1448 / 2000 = 0.7240
+Precision: 885 / 1301 = 0.6802
+Recall: 885 / 1021 = 0.8668
+F1 (harmonic mean of precision and recall): 0.7623
+Time for training and evaluation: 119.90 seconds
+=====Test Accuracy=====
+Accuracy: 17912 / 25000 = 0.7165
+Precision: 10651 / 15890 = 0.6703
+Recall: 10651 / 12500 = 0.8521
+F1 (harmonic mean of precision and recall): 0.7503
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=10, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7445 / 10000 = 0.7445
+Precision: 3891 / 5354 = 0.7267
+Recall: 3891 / 4983 = 0.7809
+F1 (harmonic mean of precision and recall): 0.7528
+=====Dev Accuracy=====
+Accuracy: 1487 / 2000 = 0.7435
+Precision: 793 / 1078 = 0.7356
+Recall: 793 / 1021 = 0.7767
+F1 (harmonic mean of precision and recall): 0.7556
+Time for training and evaluation: 119.66 seconds
+=====Test Accuracy=====
+Accuracy: 18566 / 25000 = 0.7426
+Precision: 9515 / 12964 = 0.7340
+Recall: 9515 / 12500 = 0.7612
+F1 (harmonic mean of precision and recall): 0.7473
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=15, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6522 / 10000 = 0.6522
+Precision: 4721 / 7937 = 0.5948
+Recall: 4721 / 4983 = 0.9474
+F1 (harmonic mean of precision and recall): 0.7308
+=====Dev Accuracy=====
+Accuracy: 1329 / 2000 = 0.6645
+Precision: 957 / 1564 = 0.6119
+Recall: 957 / 1021 = 0.9373
+F1 (harmonic mean of precision and recall): 0.7404
+Time for training and evaluation: 126.03 seconds
+=====Test Accuracy=====
+Accuracy: 16250 / 25000 = 0.6500
+Precision: 11661 / 19572 = 0.5958
+Recall: 11661 / 12500 = 0.9329
+F1 (harmonic mean of precision and recall): 0.7272
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=15, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6223 / 10000 = 0.6223
+Precision: 1351 / 1496 = 0.9031
+Recall: 1351 / 4983 = 0.2711
+F1 (harmonic mean of precision and recall): 0.4170
+=====Dev Accuracy=====
+Accuracy: 1221 / 2000 = 0.6105
+Precision: 273 / 304 = 0.8980
+Recall: 273 / 1021 = 0.2674
+F1 (harmonic mean of precision and recall): 0.4121
+Time for training and evaluation: 120.44 seconds
+=====Test Accuracy=====
+Accuracy: 15509 / 25000 = 0.6204
+Precision: 3372 / 3735 = 0.9028
+Recall: 3372 / 12500 = 0.2698
+F1 (harmonic mean of precision and recall): 0.4154
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=15, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6278 / 10000 = 0.6278
+Precision: 1422 / 1583 = 0.8983
+Recall: 1422 / 4983 = 0.2854
+F1 (harmonic mean of precision and recall): 0.4331
+=====Dev Accuracy=====
+Accuracy: 1232 / 2000 = 0.6160
+Precision: 288 / 323 = 0.8916
+Recall: 288 / 1021 = 0.2821
+F1 (harmonic mean of precision and recall): 0.4286
+Time for training and evaluation: 120.56 seconds
+=====Test Accuracy=====
+Accuracy: 15646 / 25000 = 0.6258
+Precision: 3550 / 3954 = 0.8978
+Recall: 3550 / 12500 = 0.2840
+F1 (harmonic mean of precision and recall): 0.4315
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=15, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6318 / 10000 = 0.6318
+Precision: 4777 / 8253 = 0.5788
+Recall: 4777 / 4983 = 0.9587
+F1 (harmonic mean of precision and recall): 0.7218
+=====Dev Accuracy=====
+Accuracy: 1272 / 2000 = 0.6360
+Precision: 966 / 1639 = 0.5894
+Recall: 966 / 1021 = 0.9461
+F1 (harmonic mean of precision and recall): 0.7263
+Time for training and evaluation: 120.01 seconds
+=====Test Accuracy=====
+Accuracy: 15739 / 25000 = 0.6296
+Precision: 11839 / 20439 = 0.5792
+Recall: 11839 / 12500 = 0.9471
+F1 (harmonic mean of precision and recall): 0.7188
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=15, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7186 / 10000 = 0.7186
+Precision: 2716 / 3263 = 0.8324
+Recall: 2716 / 4983 = 0.5451
+F1 (harmonic mean of precision and recall): 0.6587
+=====Dev Accuracy=====
+Accuracy: 1387 / 2000 = 0.6935
+Precision: 532 / 656 = 0.8110
+Recall: 532 / 1021 = 0.5211
+F1 (harmonic mean of precision and recall): 0.6345
+Time for training and evaluation: 120.92 seconds
+=====Test Accuracy=====
+Accuracy: 17855 / 25000 = 0.7142
+Precision: 6677 / 7999 = 0.8347
+Recall: 6677 / 12500 = 0.5342
+F1 (harmonic mean of precision and recall): 0.6514
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=15, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7142 / 10000 = 0.7142
+Precision: 4462 / 6799 = 0.6563
+Recall: 4462 / 4983 = 0.8954
+F1 (harmonic mean of precision and recall): 0.7574
+=====Dev Accuracy=====
+Accuracy: 1443 / 2000 = 0.7215
+Precision: 911 / 1358 = 0.6708
+Recall: 911 / 1021 = 0.8923
+F1 (harmonic mean of precision and recall): 0.7659
+Time for training and evaluation: 120.09 seconds
+=====Test Accuracy=====
+Accuracy: 17659 / 25000 = 0.7064
+Precision: 10913 / 16667 = 0.6548
+Recall: 10913 / 12500 = 0.8730
+F1 (harmonic mean of precision and recall): 0.7483
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=15, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7416 / 10000 = 0.7416
+Precision: 3931 / 5463 = 0.7196
+Recall: 3931 / 4983 = 0.7889
+F1 (harmonic mean of precision and recall): 0.7526
+=====Dev Accuracy=====
+Accuracy: 1490 / 2000 = 0.7450
+Precision: 805 / 1099 = 0.7325
+Recall: 805 / 1021 = 0.7884
+F1 (harmonic mean of precision and recall): 0.7594
+Time for training and evaluation: 119.66 seconds
+=====Test Accuracy=====
+Accuracy: 18496 / 25000 = 0.7398
+Precision: 9619 / 13242 = 0.7264
+Recall: 9619 / 12500 = 0.7695
+F1 (harmonic mean of precision and recall): 0.7473
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=15, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6457 / 10000 = 0.6457
+Precision: 4762 / 8084 = 0.5891
+Recall: 4762 / 4983 = 0.9556
+F1 (harmonic mean of precision and recall): 0.7289
+=====Dev Accuracy=====
+Accuracy: 1298 / 2000 = 0.6490
+Precision: 964 / 1609 = 0.5991
+Recall: 964 / 1021 = 0.9442
+F1 (harmonic mean of precision and recall): 0.7331
+Time for training and evaluation: 121.87 seconds
+=====Test Accuracy=====
+Accuracy: 16025 / 25000 = 0.6410
+Precision: 11795 / 20065 = 0.5878
+Recall: 11795 / 12500 = 0.9436
+F1 (harmonic mean of precision and recall): 0.7244
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=20, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4983 / 10000 = 0.4983
+Precision: 4983 / 10000 = 0.4983
+Recall: 4983 / 4983 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 1021 / 2000 = 0.5105
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6759
+Time for training and evaluation: 120.46 seconds
+=====Test Accuracy=====
+Accuracy: 12502 / 25000 = 0.5001
+Precision: 12500 / 24998 = 0.5000
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6667
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=20, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4988 / 10000 = 0.4988
+Precision: 4982 / 9993 = 0.4985
+Recall: 4982 / 4983 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6653
+=====Dev Accuracy=====
+Accuracy: 1022 / 2000 = 0.5110
+Precision: 1021 / 1999 = 0.5108
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 120.33 seconds
+=====Test Accuracy=====
+Accuracy: 12507 / 25000 = 0.5003
+Precision: 12500 / 24993 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6668
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=20, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4995 / 10000 = 0.4995
+Precision: 4981 / 9984 = 0.4989
+Recall: 4981 / 4983 = 0.9996
+F1 (harmonic mean of precision and recall): 0.6656
+=====Dev Accuracy=====
+Accuracy: 1023 / 2000 = 0.5115
+Precision: 1021 / 1998 = 0.5110
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6764
+Time for training and evaluation: 120.76 seconds
+=====Test Accuracy=====
+Accuracy: 12532 / 25000 = 0.5013
+Precision: 12498 / 24964 = 0.5006
+Recall: 12498 / 12500 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6672
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=20, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7195 / 10000 = 0.7195
+Precision: 2811 / 3444 = 0.8162
+Recall: 2811 / 4983 = 0.5641
+F1 (harmonic mean of precision and recall): 0.6671
+=====Dev Accuracy=====
+Accuracy: 1405 / 2000 = 0.7025
+Precision: 562 / 698 = 0.8052
+Recall: 562 / 1021 = 0.5504
+F1 (harmonic mean of precision and recall): 0.6539
+Time for training and evaluation: 120.12 seconds
+=====Test Accuracy=====
+Accuracy: 17842 / 25000 = 0.7137
+Precision: 6856 / 8370 = 0.8191
+Recall: 6856 / 12500 = 0.5485
+F1 (harmonic mean of precision and recall): 0.6570
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=20, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4986 / 10000 = 0.4986
+Precision: 4983 / 9997 = 0.4984
+Recall: 4983 / 4983 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6653
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 1021 / 2000 = 0.5105
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6759
+Time for training and evaluation: 119.96 seconds
+=====Test Accuracy=====
+Accuracy: 12504 / 25000 = 0.5002
+Precision: 12500 / 24996 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6667
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=20, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6499 / 10000 = 0.6499
+Precision: 4680 / 7878 = 0.5941
+Recall: 4680 / 4983 = 0.9392
+F1 (harmonic mean of precision and recall): 0.7278
+=====Dev Accuracy=====
+Accuracy: 1330 / 2000 = 0.6650
+Precision: 952 / 1553 = 0.6130
+Recall: 952 / 1021 = 0.9324
+F1 (harmonic mean of precision and recall): 0.7397
+Time for training and evaluation: 120.61 seconds
+=====Test Accuracy=====
+Accuracy: 16242 / 25000 = 0.6497
+Precision: 11592 / 19442 = 0.5962
+Recall: 11592 / 12500 = 0.9274
+F1 (harmonic mean of precision and recall): 0.7258
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=20, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5585 / 10000 = 0.5585
+Precision: 609 / 650 = 0.9369
+Recall: 609 / 4983 = 0.1222
+F1 (harmonic mean of precision and recall): 0.2162
+=====Dev Accuracy=====
+Accuracy: 1081 / 2000 = 0.5405
+Precision: 113 / 124 = 0.9113
+Recall: 113 / 1021 = 0.1107
+F1 (harmonic mean of precision and recall): 0.1974
+Time for training and evaluation: 122.20 seconds
+=====Test Accuracy=====
+Accuracy: 13912 / 25000 = 0.5565
+Precision: 1509 / 1606 = 0.9396
+Recall: 1509 / 12500 = 0.1207
+F1 (harmonic mean of precision and recall): 0.2140
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=20, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6370 / 10000 = 0.6370
+Precision: 1551 / 1749 = 0.8868
+Recall: 1551 / 4983 = 0.3113
+F1 (harmonic mean of precision and recall): 0.4608
+=====Dev Accuracy=====
+Accuracy: 1252 / 2000 = 0.6260
+Precision: 316 / 359 = 0.8802
+Recall: 316 / 1021 = 0.3095
+F1 (harmonic mean of precision and recall): 0.4580
+Time for training and evaluation: 120.76 seconds
+=====Test Accuracy=====
+Accuracy: 15917 / 25000 = 0.6367
+Precision: 3909 / 4401 = 0.8882
+Recall: 3909 / 12500 = 0.3127
+F1 (harmonic mean of precision and recall): 0.4626
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.05, write_predictions=False, batch_size=25, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6687 / 10000 = 0.6687
+Precision: 2022 / 2374 = 0.8517
+Recall: 2022 / 4983 = 0.4058
+F1 (harmonic mean of precision and recall): 0.5497
+=====Dev Accuracy=====
+Accuracy: 1299 / 2000 = 0.6495
+Precision: 401 / 482 = 0.8320
+Recall: 401 / 1021 = 0.3928
+F1 (harmonic mean of precision and recall): 0.5336
+Time for training and evaluation: 121.15 seconds
+=====Test Accuracy=====
+Accuracy: 16626 / 25000 = 0.6650
+Precision: 4983 / 5840 = 0.8533
+Recall: 4983 / 12500 = 0.3986
+F1 (harmonic mean of precision and recall): 0.5434
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.1, write_predictions=False, batch_size=25, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4985 / 10000 = 0.4985
+Precision: 4982 / 9996 = 0.4984
+Recall: 4982 / 4983 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1021 / 2000 = 0.5105
+Precision: 1021 / 2000 = 0.5105
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6759
+Time for training and evaluation: 121.08 seconds
+=====Test Accuracy=====
+Accuracy: 12504 / 25000 = 0.5002
+Precision: 12500 / 24996 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6667
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.2, write_predictions=False, batch_size=25, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 7276 / 10000 = 0.7276
+Precision: 3263 / 4267 = 0.7647
+Recall: 3263 / 4983 = 0.6548
+F1 (harmonic mean of precision and recall): 0.7055
+=====Dev Accuracy=====
+Accuracy: 1419 / 2000 = 0.7095
+Precision: 649 / 858 = 0.7564
+Recall: 649 / 1021 = 0.6357
+F1 (harmonic mean of precision and recall): 0.6908
+Time for training and evaluation: 135.36 seconds
+=====Test Accuracy=====
+Accuracy: 18088 / 25000 = 0.7235
+Precision: 7971 / 10354 = 0.7698
+Recall: 7971 / 12500 = 0.6377
+F1 (harmonic mean of precision and recall): 0.6976
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.3, write_predictions=False, batch_size=25, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5271 / 10000 = 0.5271
+Precision: 4947 / 9640 = 0.5132
+Recall: 4947 / 4983 = 0.9928
+F1 (harmonic mean of precision and recall): 0.6766
+=====Dev Accuracy=====
+Accuracy: 1078 / 2000 = 0.5390
+Precision: 1012 / 1925 = 0.5257
+Recall: 1012 / 1021 = 0.9912
+F1 (harmonic mean of precision and recall): 0.6870
+Time for training and evaluation: 119.91 seconds
+=====Test Accuracy=====
+Accuracy: 13231 / 25000 = 0.5292
+Precision: 12375 / 24019 = 0.5152
+Recall: 12375 / 12500 = 0.9900
+F1 (harmonic mean of precision and recall): 0.6777
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.4, write_predictions=False, batch_size=25, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 6731 / 10000 = 0.6731
+Precision: 2061 / 2408 = 0.8559
+Recall: 2061 / 4983 = 0.4136
+F1 (harmonic mean of precision and recall): 0.5577
+=====Dev Accuracy=====
+Accuracy: 1305 / 2000 = 0.6525
+Precision: 407 / 488 = 0.8340
+Recall: 407 / 1021 = 0.3986
+F1 (harmonic mean of precision and recall): 0.5394
+Time for training and evaluation: 120.55 seconds
+=====Test Accuracy=====
+Accuracy: 16727 / 25000 = 0.6691
+Precision: 5086 / 5945 = 0.8555
+Recall: 5086 / 12500 = 0.4069
+F1 (harmonic mean of precision and recall): 0.5515
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.5, write_predictions=False, batch_size=25, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5706 / 10000 = 0.5706
+Precision: 4880 / 9071 = 0.5380
+Recall: 4880 / 4983 = 0.9793
+F1 (harmonic mean of precision and recall): 0.6945
+=====Dev Accuracy=====
+Accuracy: 1141 / 2000 = 0.5705
+Precision: 988 / 1814 = 0.5447
+Recall: 988 / 1021 = 0.9677
+F1 (harmonic mean of precision and recall): 0.6970
+Time for training and evaluation: 120.66 seconds
+=====Test Accuracy=====
+Accuracy: 14277 / 25000 = 0.5711
+Precision: 12166 / 22555 = 0.5394
+Recall: 12166 / 12500 = 0.9733
+F1 (harmonic mean of precision and recall): 0.6941
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.6, write_predictions=False, batch_size=25, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 5738 / 10000 = 0.5738
+Precision: 788 / 855 = 0.9216
+Recall: 788 / 4983 = 0.1581
+F1 (harmonic mean of precision and recall): 0.2700
+=====Dev Accuracy=====
+Accuracy: 1124 / 2000 = 0.5620
+Precision: 159 / 173 = 0.9191
+Recall: 159 / 1021 = 0.1557
+F1 (harmonic mean of precision and recall): 0.2663
+Time for training and evaluation: 125.34 seconds
+=====Test Accuracy=====
+Accuracy: 14336 / 25000 = 0.5734
+Precision: 1990 / 2144 = 0.9282
+Recall: 1990 / 12500 = 0.1592
+F1 (harmonic mean of precision and recall): 0.2718
+
+---------------------------------------
+
+
+Namespace(model='LR', tokenizer='NONE', feats='WV', learning_rate=0.7, write_predictions=False, batch_size=25, epochs=7, ngrams=2, train_path='data/imdb_train.txt', dev_path='data/imdb_dev.txt', test_path='data/imdb_test.txt')
+10000 / 2000 / 25000 train/dev/test examples
+Loading word2vec model...
+Word2vec model loaded
+=====Train Accuracy=====
+Accuracy: 4985 / 10000 = 0.4985
+Precision: 4982 / 9996 = 0.4984
+Recall: 4982 / 4983 = 0.9998
+F1 (harmonic mean of precision and recall): 0.6652
+=====Dev Accuracy=====
+Accuracy: 1022 / 2000 = 0.5110
+Precision: 1021 / 1999 = 0.5108
+Recall: 1021 / 1021 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6762
+Time for training and evaluation: 120.30 seconds
+=====Test Accuracy=====
+Accuracy: 12505 / 25000 = 0.5002
+Precision: 12500 / 24995 = 0.5001
+Recall: 12500 / 12500 = 1.0000
+F1 (harmonic mean of precision and recall): 0.6668
+
+---------------------------------------
+
+
